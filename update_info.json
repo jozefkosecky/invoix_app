@@ -1,0 +1,12 @@
+{
+  "versions": [
+    {
+      "version": "1.2.0",
+      "changes": [
+        "Initial release with core features.",
+        "User authentication and registration.",
+        "Basic order management system."
+      ]
+    },
+  ]
+}
