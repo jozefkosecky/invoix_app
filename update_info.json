@@ -1,11 +1,12 @@
 {
   "versions": [
     {
-      "version": "1.2.0",
+      "version": "1.2.1",
       "changes": [
-        "Initial release with core features.",
-        "User authentication and registration.",
-        "Basic order management system."
+        "Opravená chyba s označovaním objednávok.",
+        "Zľavy a služby započítané v tržbách.",
+        "Zľavy a služby započítané vo faktúrach.",
+        "Zľavy a služby započítané v dodacích listoch."
       ]
     }
   ]
