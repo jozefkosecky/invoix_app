@@ -8,6 +8,14 @@
         "Zľavy a služby započítané vo faktúrach.",
         "Zľavy a služby započítané v dodacích listoch."
       ]
+    },
+    {
+      "version": "1.2.2",
+      "changes": [
+        "Pridaná možnosť nastavenia stavu objednávky.",
+        "Odstránený problém s označením objednávok.",
+        "Odstránený problém s upravovaním faktúr.",
+      ]
     }
   ]
 }
