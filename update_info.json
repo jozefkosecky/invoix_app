@@ -16,6 +16,18 @@
         "Odstránený problém s označením objednávok.",
         "Odstránený problém s upravovaním faktúr."
       ]
+    },
+    {
+      "version": "1.2.3",
+      "changes": [
+        "Pridané funkcie skladového hospodárstva.",
+        "Pridaná funkcia vytvárania výrobkov a služieb priamo v objednávke.",
+        "Pridaná funkcia vytvárania zákazníkov priamo v objednávke.",
+        "Možnosť nastaviť hmotnosť výrobku.",
+        "Zobrazenie hmotnosti celej objednávky.",
+        "Zmena navigácie medzi jednotlivými výrobkami.",
+        "Odstránený problém so zobrazovaním vymazaných výrobkov pri vytváraní objednávky."
+      ]
     }
   ]
 }
