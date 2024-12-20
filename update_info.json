@@ -28,6 +28,12 @@
         "Zmena navigácie medzi jednotlivými výrobkami.",
         "Odstránený problém so zobrazovaním vymazaných výrobkov pri vytváraní objednávky."
       ]
+    },
+    {
+      "version": "1.2.4",
+      "changes": [
+        "Hromadná zmena DPH"
+      ]
     }
   ]
 }
