@@ -34,6 +34,13 @@
       "changes": [
         "Hromadná zmena DPH."
       ]
+    },
+    {
+      "version": "1.2.6",
+      "changes": [
+        "Opravený problém s označovaním.",
+        "Opravený problém s vyhľadávaním vo faktúrach."
+      ]
     }
   ]
 }
