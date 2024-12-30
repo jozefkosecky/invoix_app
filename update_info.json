@@ -41,6 +41,12 @@
         "Opravený problém s označovaním.",
         "Opravený problém s vyhľadávaním vo faktúrach."
       ]
+    },
+    {
+      "version": "1.2.7",
+      "changes": [
+        "Zmena zachytávania a riešenie errorov."
+      ]
     }
   ]
 }
