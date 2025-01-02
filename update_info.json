@@ -47,6 +47,14 @@
       "changes": [
         "Zmena zachytávania a riešenie errorov."
       ]
+    },
+    {
+      "version": "1.2.8",
+      "changes": [
+        "Oprava číslovanie faktúr podľa obdobia fakturácie.",
+        "Oprava sadzieb DPH v dodacích listoch, po ich zmene.",
+        "Použitie správneho cenníka pri kopírovaní objednávok."
+      ]
     }
   ]
 }
