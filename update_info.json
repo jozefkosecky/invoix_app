@@ -53,7 +53,8 @@
       "changes": [
         "Oprava číslovanie faktúr podľa obdobia fakturácie.",
         "Oprava sadzieb DPH v dodacích listoch, po ich zmene.",
-        "Použitie správneho cenníka pri kopírovaní objednávok."
+        "Použitie správneho cenníka pri kopírovaní objednávok.",
+        "Zmena cenníka priamo pri vytváraní objednávky, bez vymazania už pridaných produktov."
       ]
     }
   ]
