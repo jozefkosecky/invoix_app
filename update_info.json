@@ -56,6 +56,12 @@
         "Použitie správneho cenníka pri kopírovaní objednávok.",
         "Zmena cenníka priamo pri vytváraní objednávky, bez vymazania už pridaných produktov."
       ]
+    },
+    {
+      "version": "1.2.9",
+      "changes": [
+        "Odstránie chyby, kedy pri kopírovaní objednávky, na základe ktorej už bola vystavená faktúra, tak sa táto skopírovaná objednávka zobrazila na faktúre s pôvodnou objednávkou."
+      ]
     }
   ]
 }
