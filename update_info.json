@@ -1,67 +1,95 @@
 {
-  "versions": [
-    {
-      "version": "1.2.1",
-      "changes": [
-        "Opravená chyba s označovaním objednávok.",
-        "Zľavy a služby započítané v tržbách.",
-        "Zľavy a služby započítané vo faktúrach.",
-        "Zľavy a služby započítané v dodacích listoch."
-      ]
-    },
-    {
-      "version": "1.2.2",
-      "changes": [
-        "Pridaná možnosť nastavenia stavu objednávky.",
-        "Odstránený problém s označením objednávok.",
-        "Odstránený problém s upravovaním faktúr."
-      ]
-    },
-    {
-      "version": "1.2.3",
-      "changes": [
-        "Pridané funkcie skladového hospodárstva.",
-        "Pridaná funkcia vytvárania výrobkov a služieb priamo v objednávke.",
-        "Pridaná funkcia vytvárania zákazníkov priamo v objednávke.",
-        "Možnosť nastaviť hmotnosť výrobku.",
-        "Zobrazenie hmotnosti celej objednávky.",
-        "Zmena navigácie medzi jednotlivými výrobkami.",
-        "Odstránený problém so zobrazovaním vymazaných výrobkov pri vytváraní objednávky."
-      ]
-    },
-    {
-      "version": "1.2.4",
-      "changes": [
-        "Hromadná zmena DPH."
-      ]
-    },
-    {
-      "version": "1.2.6",
-      "changes": [
-        "Opravený problém s označovaním.",
-        "Opravený problém s vyhľadávaním vo faktúrach."
-      ]
-    },
-    {
-      "version": "1.2.7",
-      "changes": [
-        "Zmena zachytávania a riešenie errorov."
-      ]
-    },
-    {
-      "version": "1.2.8",
-      "changes": [
-        "Oprava číslovanie faktúr podľa obdobia fakturácie.",
-        "Oprava sadzieb DPH v dodacích listoch, po ich zmene.",
-        "Použitie správneho cenníka pri kopírovaní objednávok.",
-        "Zmena cenníka priamo pri vytváraní objednávky, bez vymazania už pridaných produktov."
-      ]
-    },
-    {
-      "version": "1.2.9",
-      "changes": [
-        "Odstránie chyby, kedy pri kopírovaní objednávky, na základe ktorej už bola vystavená faktúra, tak sa táto skopírovaná objednávka zobrazila na faktúre s pôvodnou objednávkou."
-      ]
-    }
-  ]
+    "versions": [
+        {
+            "version": "1.2.1",
+            "changes": {
+                "news": [
+                    "Zľavy a služby započítané v tržbách.",
+                    "Zľavy a služby započítané vo faktúrach.",
+                    "Zľavy a služby započítané v dodacích listoch."
+                ],
+                "fixed_bugs": [
+                    "Opravená chyba s označovaním objednávok."
+                ]
+            }
+        },
+        {
+            "version": "1.2.2",
+            "changes": {
+                "news": [
+                    "Pridaná možnosť nastavenia stavu objednávky."
+                ],
+                "fixed_bugs": [
+                    "Odstránený problém s označením objednávok.",
+                    "Odstránený problém s upravovaním faktúr."
+                ]
+            }
+        },
+        {
+            "version": "1.2.3",
+            "changes": {
+                "news": [
+                    "Pridané funkcie skladového hospodárstva.",
+                    "Pridaná funkcia vytvárania výrobkov a služieb priamo v objednávke.",
+                    "Pridaná funkcia vytvárania zákazníkov priamo v objednávke.",
+                    "Možnosť nastaviť hmotnosť výrobku.",
+                    "Zobrazenie hmotnosti celej objednávky.",
+                    "Zmena navigácie medzi jednotlivými výrobkami."
+                ],
+                "fixed_bugs": [
+                    "Odstránený problém so zobrazovaním vymazaných výrobkov pri vytváraní objednávky."
+                ]
+            }
+        },
+        {
+            "version": "1.2.4",
+            "changes": {
+                "news": [
+                    "Hromadná zmena DPH hladín."
+                ],
+                "fixed_bugs": []
+            }
+        },
+        {
+            "version": "1.2.6",
+            "changes": {
+                "news": [],
+                "fixed_bugs": [
+                    "Opravený problém s označovaním.",
+                    "Opravený problém s vyhľadávaním vo faktúrach."
+                ]
+            }
+        },
+        {
+            "version": "1.2.7",
+            "changes": {
+                "news": [
+                    "Zmena zachytávania a riešenie errorov."
+                ],
+                "fixed_bugs": []
+            }
+        },
+        {
+            "version": "1.2.8",
+            "changes": {
+                "news": [
+                    "Zmena cenníka priamo pri vytváraní objednávky, bez vymazania už pridaných produktov."
+                ],
+                "fixed_bugs": [
+                    "Oprava číslovanie faktúr podľa obdobia fakturácie.",
+                    "Oprava sadzieb DPH v dodacích listoch, po ich zmene.",
+                    "Použitie správneho cenníka pri kopírovaní objednávok."
+                ]
+            }
+        },
+        {
+            "version": "1.2.9",
+            "changes": {
+                "news": [],
+                "fixed_bugs": [
+                    "Odstránie chyby, kedy pri kopírovaní objednávky, na základe ktorej už bola vystavená faktúra, tak sa táto skopírovaná objednávka zobrazila na faktúre s pôvodnou objednávkou."
+                ]
+            }
+        }
+    ]
 }
