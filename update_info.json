@@ -90,6 +90,25 @@
                     "Odstránie chyby, kedy pri kopírovaní objednávky, na základe ktorej už bola vystavená faktúra, tak sa táto skopírovaná objednávka zobrazila na faktúre s pôvodnou objednávkou."
                 ]
             }
+        },
+        {
+            "version": "1.2.10",
+            "changes": {
+                "news": [
+                    "Zobrazenie všetkých zmien v aplikácii po kliknutí na ikonu v hornej lište.",
+                    "Možnosť zobrazenia historického stavu skladu.",
+                    "Zobrazenie štatistík príjmov, výdajov a zostatkov tovaru na sklade.",
+                    "Automatická tvorba podskladových kariet na základe ich ceny pri naskladňovaní.",
+                    "Zobrazenie skladových kariet spolu s podskladovými kartami.",
+                    "Úprava vzhľadu kariet zobrazujúcich pohyby na sklade.",
+                    "Prednastavený rozsah 30 dní pri pohyboch na sklade.",
+                    "Intuitívnejší proces tvorby pohybov na sklade.",
+                    "Zakázaná možnosť zmeny dátumu a typu pohybu už vo vytvorenom pohybe na sklade."
+                ],
+                "fixed_bugs": [
+                    "Zaokrúhľovanie stavu zásob v sklade na 3 desatinné miesta."
+                ]
+            }
         }
     ]
 }
