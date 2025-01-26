@@ -118,6 +118,19 @@
                     "Odstránenie chyby pri kopírovaní objednávok. Program pri neprepojených produktoch so skladovými kartami nesprávne vyhodnocoval, že na sklade nie je dostatok zásob."
                 ]
             }
+        },
+        {
+            "version": "1.2.12",
+            "changes": {
+                "news": [
+                    "Vytvorenie novej skupiny výrobkov po stlačení ENTER.",
+                    "Zoradenie skupiny výrobkov na základe \"rozsahu od\".",
+                    "Možnosť prepojenia názvu skladovej karty s názvom výrobku."
+                ],
+                "fixed_bugs": [
+                    "Pridaná možnosť scrollovania tabuľky so skupinami výrobkov."
+                ]
+            }
         }
     ]
 }
