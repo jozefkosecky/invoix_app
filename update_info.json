@@ -131,6 +131,17 @@
                     "Pridaná možnosť scrollovania tabuľky so skupinami výrobkov."
                 ]
             }
+        },
+        {
+            "version": "1.2.13",
+            "changes": {
+                "news": [
+                    "Možnosť posúvania medzi textovými poliami pri vytváraní objednávky alebo skladového pohybu pomocou šípok na klávesnici."
+                ],
+                "fixed_bugs": [
+                    "Automatická zmena stavu skladu na základe objednávky."
+                ]
+            }
         }
     ]
 }
