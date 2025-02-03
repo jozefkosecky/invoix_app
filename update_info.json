@@ -153,6 +153,15 @@
                 ],
                 "fixed_bugs": []
             }
+        },
+        {
+            "version": "1.2.15",
+            "changes": {
+                "news": [],
+                "fixed_bugs": [
+                    "Hot fix: Zobrazenie tlačidiel na úpravu cenníkov."
+                ]
+            }
         }
     ]
 }
