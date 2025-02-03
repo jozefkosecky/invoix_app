@@ -147,7 +147,7 @@
             "version": "1.2.14",
             "changes": {
                 "news": [
-                    "Zmena zobrazenia produktov, skupín a práca s nimi.",
+                    "Zmena zobrazenia výrobkov, skupín a práce s nimi.",
                     "V prípade, ak sú výrobky prepojené so skladovými kartami, je možné vybrať výrobky na naskladnenie označením viacerých položiek z výrobkov rozdelených podľa vášho rozdelenia.",
                     "Zmena vzhľadu objednávok pre lepšiu vizuálnu indikáciu nastaveného statusu objednávky."
                 ],
