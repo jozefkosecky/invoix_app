@@ -142,6 +142,17 @@
                     "Automatická zmena stavu skladu na základe objednávky."
                 ]
             }
+        },
+        {
+            "version": "1.2.14",
+            "changes": {
+                "news": [
+                    "Zmena zobrazenia produktov, skupín a práca s nimi.",
+                    "V prípade, ak sú výrobky prepojené so skladovými kartami, je možné vybrať výrobky na naskladnenie označením viacerých položiek z výrobkov rozdelených podľa vášho rozdelenia.",
+                    "Zmena vzhľadu objednávok pre lepšiu vizuálnu indikáciu nastaveného statusu objednávky."
+                ],
+                "fixed_bugs": []
+            }
         }
     ]
 }
