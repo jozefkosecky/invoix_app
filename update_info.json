@@ -162,6 +162,15 @@
                     "Hot fix: Zobrazenie tlačidiel na úpravu cenníkov."
                 ]
             }
+        },
+        {
+            "version": "1.2.16",
+            "changes": {
+                "news": [
+                    "Zobrazenie podrobných informácií o zákazníkovi pri objednávke po kliknutí na jeho meno/názov."
+                ],
+                "fixed_bugs": []
+            }
         }
     ]
 }
