@@ -171,6 +171,22 @@
                 ],
                 "fixed_bugs": []
             }
+        },
+        {
+            "version": "1.2.17",
+            "changes": {
+                "news": [
+                    "Vizuálna zmena zobrazenia skladových kariet spolu s nasledujúcimi vylepšeniami: 1. Zobrazenie podskladových kariet spolu s vysvetlivkami. 2. Zobrazenie štatistík pohybov. 3. Zobrazenie pohybov.",
+                    "Možnosť zoradiť skladové karty na základe množstva.",
+                    "Možnosť filtrovať pohyby podľa skladovej karty.",
+                    "Možnosť pridať poznámku k objednávke."
+                ],
+                "fixed_bugs": [
+                    "Automaticky nastavená preferovaná daňová hladina pri tvorbe skladovej karty.",
+                    "Správne zobrazenie skladových kariet s nedostatočným množstvom.",
+                    "Nezobrazovanie skladových kariet, ktoré boli vymazané pri tvorbe nového skladového pohybu."
+                ]
+            }
         }
     ]
 }
