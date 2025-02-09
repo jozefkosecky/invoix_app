@@ -179,7 +179,10 @@
                     "Vizuálna zmena zobrazenia skladových kariet spolu s nasledujúcimi vylepšeniami: 1. Zobrazenie podskladových kariet spolu s vysvetlivkami. 2. Zobrazenie štatistík pohybov. 3. Zobrazenie pohybov.",
                     "Možnosť zoradiť skladové karty na základe množstva.",
                     "Možnosť filtrovať pohyby podľa skladovej karty.",
-                    "Možnosť pridať poznámku k objednávke."
+                    "Možnosť pridať poznámku k objednávke.",
+                    "Zobrazenie chystaných zmien ešte pred aktualizáciou.",
+                    "Možnosť odmietnuť aktualizáciu a nezobrazovať výzvu na jej vykonanie.",
+                    "Možnosť vyhľadať a vykonať aktualizácie v nastaveniach aplikácie."
                 ],
                 "fixed_bugs": [
                     "Automaticky nastavená preferovaná daňová hladina pri tvorbe skladovej karty.",
