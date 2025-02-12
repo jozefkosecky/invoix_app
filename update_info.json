@@ -211,7 +211,7 @@
             "changes": {
                 "news": [],
                 "fixed_bugs": [
-                    "Hot fix: Správne ukladanie štatu pri doručovacej adrese."
+                    "Hot fix: Správne ukladanie štátu pri doručovacej adrese."
                 ]
             }
         }
