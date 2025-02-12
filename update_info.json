@@ -190,6 +190,21 @@
                     "Nezobrazovanie skladových kariet, ktoré boli vymazané pri tvorbe nového skladového pohybu."
                 ]
             }
+        },
+        {
+            "version": "1.2.18",
+            "changes": {
+                "news": [
+                    "Možnosť zadať telefónne číslo s predvoľbou (+421...).",
+                    "Nastavenie niektorých textových polí ako voliteľných namiesto povinných pri zákazníkovi, spoločnosti a osobných informáciách.",
+                    "Automatické nastavenie typu platby, typu faktúry a doby splatnosti pri vytváraní zákazníka.",
+                    "Zmena zobrazovania adresy zákazníka. Po novom: Ulica, PSČ, Mesto.",
+                    "Pridaná možnosť nastaviť štát zákazníka.",
+                    "Zobrazenie dostupného množstva na sklade pri tvorbe objednávky, ak je výrobok prepojený so skladovou kartou.",
+                    "Prehľadnejšie zaokrúhľovanie dostupného množstva na sklade. Doteraz sa zobrazovalo napr. 1.200 kg, po novom 1.2 kg."
+                ],
+                "fixed_bugs": []
+            }
         }
     ]
 }
