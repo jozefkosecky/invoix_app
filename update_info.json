@@ -237,7 +237,8 @@
                     "Zobrazenie dátumu pri prejdení myšou nad čiaru v grafe vývoja ceny naskladňovaného tovaru."
                 ],
                 "fixed_bugs": [
-                    "Opravená chyba, pri ktorej v niektorých prípadoch neboli správne vypočítané hodnoty v grafe zmien skladovej karty."
+                    "Opravená chyba, pri ktorej v niektorých prípadoch neboli správne vypočítané hodnoty v grafe zmien skladovej karty.",
+                    "Podobná chyba aj pri grafe s vývojom ceny naskladňovaného tovaru."
                 ]
             }
         }
