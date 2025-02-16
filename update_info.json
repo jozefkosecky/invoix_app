@@ -214,6 +214,21 @@
                     "Hot fix: Správne ukladanie štátu pri doručovacej adrese."
                 ]
             }
+        },
+        {
+            "version": "1.2.20",
+            "changes": {
+                "news": [
+                    "Pridaná možnosť zmeniť vzhľad objednávok v nastaveniach na minimalistický.",
+                    "Zobrazenie vývoja ceny naskladňovaného tovaru.",
+                    "Možnosť vyhľadávať v objednávkach podľa mena alebo e-mailu zákazníka, prípadne podľa poznámky v objednávke.",
+                    "Možnosť filtrovať objednávky podľa viacerých statusov.",
+                    "Úprava navigácie v aplikácii pre rýchlejšiu prácu.",
+                    "Zapamätanie stavu navigácie aj pri prepínaní medzi hlavnými sekciami (výroba/predaj a sklad).",
+                    "Zobrazenie hmotnosti objednávky v gramoch, ak nepresiahne 10 kg. Ak presiahne, hmotnosť sa zobrazí v kilogramoch."
+                ],
+                "fixed_bugs": []
+            }
         }
     ]
 }
