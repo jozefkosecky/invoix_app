@@ -229,6 +229,17 @@
                 ],
                 "fixed_bugs": []
             }
+        },
+        {
+            "version": "1.2.21",
+            "changes": {
+                "news": [
+                    "Zobrazenie dátumu pri prejdení myšou nad čiaru v grafe vývoja ceny naskladňovaného tovaru."
+                ],
+                "fixed_bugs": [
+                    "Opravená chyba, pri ktorej v niektorých prípadoch neboli správne vypočítané hodnoty v grafe zmien skladovej karty."
+                ]
+            }
         }
     ]
 }
