@@ -241,6 +241,21 @@
                     "Podobná chyba aj pri grafe s vývojom ceny naskladňovaného tovaru."
                 ]
             }
+        },
+        {
+            "version": "1.2.22",
+            "changes": {
+                "news": [
+                    "Možnosť editovať zákazníka priamo v objednávke.",
+                    "Možnosť zmeniť veľkosť písma v celej aplikácii v nastaveniach.",
+                    "Možnosť označiť skladové karty v tabuľke pri vytváraní skladového pohybu a pridať expiráciu označeným skladovým kartám.",
+                    "Možnosť označiť výrobky v tabuľke pri vytváraní objednávky a pridať zľavu označeným výrobkom.",
+                    "Zobrazenie načítavania pri zápise do databázy, aby nedošlo k neočakávanému správaniu."
+                ],
+                "fixed_bugs": [
+                    "Opravená chyba, pri ktorej vo vyhľadávaní zostala posledná vyhľadaná položka."
+                ]
+            }
         }
     ]
 }
