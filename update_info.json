@@ -256,6 +256,15 @@
                     "Opravená chyba, pri ktorej vo vyhľadávaní zostala posledná vyhľadaná položka."
                 ]
             }
+        },
+        {
+            "version": "1.2.23",
+            "changes": {
+                "news": [],
+                "fixed_bugs": [
+                    "Opravená kritická chyba. Doporučujeme aktualizáciu. Ak boli výrobky prepojené so skladovou kartou a došlo k zmene stavu objednávky, pohyb na sklade, ktorý bol na jej základe vytvorený, sa nesprávne vymazával. Táto chyba bola opravená."
+                ]
+            }
         }
     ]
 }
