@@ -265,6 +265,16 @@
                     "Opravená kritická chyba. Doporučujeme aktualizáciu. Ak boli výrobky prepojené so skladovou kartou a došlo k zmene stavu objednávky, pohyb na sklade, ktorý bol na jej základe vytvorený, sa nesprávne vymazával. Táto chyba bola opravená."
                 ]
             }
+        },
+        {
+            "version": "1.2.24",
+            "changes": {
+                "news": [
+                    "V hornej lište aplikácie pribudol poznámkový blok.",
+                    "Pridaná možnosť zadať zľavu na službu pri tvorbe objednávky."
+                ],
+                "fixed_bugs": []
+            }
         }
     ]
 }
