@@ -275,6 +275,16 @@
                 ],
                 "fixed_bugs": []
             }
+        },
+        {
+            "version": "1.2.25",
+            "changes": {
+                "news": [
+                    "Možnosť zvoliť si vlastný rozsah a zobrazenie grafu vývoja stavu skladovej karty.",
+                    "Možnosť označiť rozsah dátumov aj v opačnom poradí. Príklad: doteraz bolo možné označiť len rozsah 1. 2. 2025 -> 15. 2. 2025. Odteraz je možné aj opačné poradie: 15. 2. 2025 -> 1. 2. 2025."
+                ],
+                "fixed_bugs": []
+            }
         }
     ]
 }
