@@ -285,6 +285,16 @@
                 ],
                 "fixed_bugs": []
             }
+        },
+        {
+            "version": "1.2.26",
+            "changes": {
+                "news": [
+                    "Optimalizované vyhľadávanie pre rýchlejšiu odozvu.",
+                    "Zobrazenie celkového vydaného/prijatého množstva na sklade za vybrané obdobie nad grafom pohybov skladovej karty."
+                ],
+                "fixed_bugs": []
+            }
         }
     ]
 }
