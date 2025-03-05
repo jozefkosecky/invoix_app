@@ -295,6 +295,19 @@
                 ],
                 "fixed_bugs": []
             }
+        },
+        {
+            "version": "1.2.27",
+            "changes": {
+                "news": [
+                    "Zobrazenie počtu označených objednávok.",
+                    "Vyhľadávanie zákazníka podľa e-mailovej adresy (je potrebné zapnúť v nastaveniach).",
+                    "Možnosť pridať zľavu na celú objednávku v eurách."
+                ],
+                "fixed_bugs": [
+                    "Opravená chyba tlače cenníka s väčším počtom výrobkov."
+                ]
+            }
         }
     ]
 }
