@@ -308,6 +308,19 @@
                     "Opravená chyba tlače cenníka s väčším počtom výrobkov."
                 ]
             }
+        },
+        {
+            "version": "1.2.28",
+            "changes": {
+                "news": [
+                    "Možnosť kopírovať údaje zákazníka pomocou kopírovacieho tlačidla.",
+                    "Možnosť zmeniť rozsah načítavaných objednávok."
+                ],
+                "fixed_bugs": [
+                    "Úprava faktúr po vymazaní objednávky alebo vytvorení novej.",
+                    "Oprava vyhľadávania v objednávkach."
+                ]
+            }
         }
     ]
 }
