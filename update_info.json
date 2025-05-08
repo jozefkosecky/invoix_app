@@ -333,6 +333,18 @@
                     "Opravená chyba pri označovaní objednávok."
                 ]
             }
+        },
+        {
+            "version": "1.2.30",
+            "changes": {
+                "news": [
+                    "Pridaná funkcia na vytváranie e-podacích hárkov z objednávok pre Slovenskú poštu. Treba ju aktivovať v nastaveniach!",
+                    "Pri výdajnej skladovej karte vytvorenej na základe objednávky sa teraz zobrazuje, pre ktorého zákazníka bola vytvorená.",
+                    "Možnosť zmeniť poradie statusov objednávky.",
+                    "Možnosť pridať poznámku priamo ku klientovi."
+                ],
+                "fixed_bugs": []
+            }
         }
     ]
 }
