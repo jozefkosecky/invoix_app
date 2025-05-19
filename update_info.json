@@ -345,6 +345,18 @@
                 ],
                 "fixed_bugs": []
             }
+        },
+        {
+            "version": "1.2.31",
+            "changes": {
+                "news": [
+                    "Export objednávok do formátu XML Doporučený list (ePodací hárok Slovenskej pošty).",
+                    "Pridaná možnosť upraviť poznámku zákazníka na viacerých miestach."
+                ],
+                "fixed_bugs": [
+                    "Správne zobrazovanie štátu pri minimalistických objednávkach."
+                ]
+            }
         }
     ]
 }
