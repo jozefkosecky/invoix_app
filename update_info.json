@@ -357,6 +357,17 @@
                     "Správne zobrazovanie štátu pri minimalistických objednávkach."
                 ]
             }
+        },
+        {
+            "version": "1.2.32",
+            "changes": {
+                "news": [],
+                "fixed_bugs": [
+                    "Opravený problém, kedy mohol program zobrazovať nesprávne údaje kvôli zmene zo zimného času na letný.",
+                    "Opravené vyhľadávanie zákazníkov.",
+                    "Zobrazenie cien v grafe vývoja ceny skladovej karty na viac desatinných miest."
+                ]
+            }
         }
     ]
 }
