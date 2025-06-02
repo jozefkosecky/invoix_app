@@ -368,6 +368,15 @@
                     "Zobrazenie cien v grafe vývoja ceny skladovej karty na viac desatinných miest."
                 ]
             }
+        },
+        {
+            "version": "1.2.33",
+            "changes": {
+                "news": [
+                    "Zobrazenie podrobnejšieho prehľadu pre výrobu."
+                ],
+                "fixed_bugs": []
+            }
         }
     ]
 }
