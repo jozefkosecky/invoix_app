@@ -377,6 +377,18 @@
                 ],
                 "fixed_bugs": []
             }
+        },
+        {
+            "version": "1.2.34",
+            "changes": {
+                "news": [
+                    "Zjednodušené zobrazovanie mena zákazníka v podrobnom prehľade pre výrobu.",
+                    "Aplikácia si teraz pamätá zmeny v objednávke vykonané po vystavení dodacieho listu.",
+                    "V prehľade stavu skladu sa zobrazuje potenciálny zisk, ak je skladová karta priamo prepojená s výrobkom.",
+                    "V tržbách sa zobrazujú materiálové náklady, ak je skladová karta priamo prepojená s výrobkom."
+                ],
+                "fixed_bugs": []
+            }
         }
     ]
 }
