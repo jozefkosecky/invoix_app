@@ -389,6 +389,19 @@
                 ],
                 "fixed_bugs": []
             }
+        },
+        {
+          "version": "1.2.35",
+          "changes": {
+            "news": [
+              "Pridané upozornenie, ak chce používateľ upraviť objednávku, pre ktorú už bol vytlačený dodací list.",
+              "Export objednávok do formátu XML – Poistený list (ePodací hárok Slovenskej pošty)."
+            ],
+            "fixed_bugs": [
+              "Nepýtať sa na dôvod odstránenia objednávky, ak ešte nebol vystavený dodací list.",
+              "Zobrazenie dátumu a času poslednej úpravy objednávky."
+            ]
+          }
         }
     ]
 }
