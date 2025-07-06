@@ -391,17 +391,29 @@
             }
         },
         {
-          "version": "1.2.35",
-          "changes": {
-            "news": [
-              "Pridané upozornenie, ak chce používateľ upraviť objednávku, pre ktorú už bol vytlačený dodací list.",
-              "Export objednávok do formátu XML – Poistený list (ePodací hárok Slovenskej pošty)."
-            ],
-            "fixed_bugs": [
-              "Nepýtať sa na dôvod odstránenia objednávky, ak ešte nebol vystavený dodací list.",
-              "Zobrazenie dátumu a času poslednej úpravy objednávky."
-            ]
-          }
+            "version": "1.2.35",
+            "changes": {
+                "news": [
+                    "Pridané upozornenie, ak chce používateľ upraviť objednávku, pre ktorú už bol vytlačený dodací list.",
+                    "Export objednávok do formátu XML – Poistený list (ePodací hárok Slovenskej pošty)."
+                ],
+                "fixed_bugs": [
+                    "Nepýtať sa na dôvod odstránenia objednávky, ak ešte nebol vystavený dodací list.",
+                    "Zobrazenie dátumu a času poslednej úpravy objednávky."
+                ]
+            }
+        },
+        {
+            "version": "1.2.36",
+            "changes": {
+                "news": [
+                    "Export objednávok do formátu XML – Expres kuriér (ePodací hárok Slovenskej pošty).",
+                    "Export objednávok do formátu XML – EMS zásielka (ePodací hárok Slovenskej pošty)."
+                ],
+                "fixed_bugs": [
+                    "Opravené informácie prehľadu výroby a tržieb pre obdobie 1.5.2024 - 1.7.2024"
+                ]
+            }
         }
     ]
 }
