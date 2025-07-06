@@ -414,6 +414,15 @@
                     "Opravené informácie prehľadu výroby a tržieb pre obdobie 1.5.2024 - 1.7.2024"
                 ]
             }
+        },
+        {
+            "version": "1.2.37",
+            "changes": {
+                "news": [
+                    "Vnútorné úpravy databázovej štruktúry."
+                ],
+                "fixed_bugs": []
+            }
         }
     ]
 }
