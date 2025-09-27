@@ -423,6 +423,30 @@
                 ],
                 "fixed_bugs": []
             }
+        },
+        {
+            "version": "1.3.0",
+            "changes": {
+                "news": [
+                    "Automatický odpočet skladu na základe objednávok.",
+                    "Pridaná funkcia na vytvorenie inventúry skladu.",
+                    "Možnosť vytvoriť recepty pre výrobky.",
+                    "Možnosť rozdeliť skladové karty do skupín.",
+                    "Export prehľadu pre výrobu do Excelu.",
+                    "Možnosť meniť status viacerým objednávkam naraz.",
+                    "Možnosť vypnúť funkciu kopírovania objednávok.",
+                    "Možnosť uzamknúť nastavenia aplikácie pomocou hesla.",
+                    "Možnosť nastaviť globálny dátum v rámci celej aplikácie.",
+                    "Možnosť pridať číslo na skladovú kartu.",
+                    "Možnosť nemať žiadny stav objednávky ako predvolený.",
+                    "V jednoduchom prehľade označiť výrobky priamo a pri tlači zobraziť, kto si ich objednal.",
+                    "Zobrazenie celkového množstva výrobkov v podrobnom prehľade.",
+                    "Pri sťahovaní dát aplikácie automaticky pridať dátum do názvu súboru.",
+                    "Zobrazenie dňa v týždni pri dátume.",
+                    "Odstránenie spodnej hlavičky z tlačeného dokumentu súpiska."
+                ],
+                "fixed_bugs": []
+            }
         }
     ]
 }
