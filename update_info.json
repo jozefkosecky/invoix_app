@@ -459,6 +459,17 @@
                     "Opravený export prehľadu pre výrobu do Excelu."
                 ]
             }
+        },
+        {
+            "version": "1.3.2",
+            "changes": {
+                "news": [
+                    "Možnosť zobraziť sumár označených objednávok."
+                ],
+                "fixed_bugs": [
+                    "Zaokrúhlenie nezmyselných desatinných čísel."
+                ]
+            }
         }
     ]
 }
