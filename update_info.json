@@ -447,6 +447,18 @@
                 ],
                 "fixed_bugs": []
             }
+        },
+        {
+            "version": "1.3.1",
+            "changes": {
+                "news": [
+                    "Zmena veľkosti fontu v tlačených dokumentoch.",
+                    "Možnosť zmenšiť hlavné navigačné menu do kompaknejšej verzie."
+                ],
+                "fixed_bugs": [
+                    "Opravený export prehľadu pre výrobu do Excelu."
+                ]
+            }
         }
     ]
 }
