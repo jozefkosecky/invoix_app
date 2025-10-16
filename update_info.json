@@ -470,6 +470,17 @@
                     "Zaokrúhlenie nezmyselných desatinných čísel."
                 ]
             }
+        },
+        {
+            "version": "1.3.3",
+            "changes": {
+                "news": [
+                    "Možnosť exportovať cenníky do Excelu.",
+                    "Možnosť vybrať priečinok a nastaviť automatickú zálohu pri každom vypnutí programu.",
+                    "Optimalizovaný výkon pri kopírovaní objednávok."
+                ],
+                "fixed_bugs": []
+            }
         }
     ]
 }
