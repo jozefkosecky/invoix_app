@@ -487,7 +487,9 @@
             "changes": {
                 "news": [],
                 "fixed_bugs": [
-                    "Zobrazenie správného množstva pri inventúre."
+                    "Zobrazenie správneho množstva pri inventúre.",
+                    "Zobrazenie správneho množstva v grafe vývoja stavu skladu.",
+                    "Zobrazenie správneho množstva pri historickom stave."
                 ]
             }
         }
