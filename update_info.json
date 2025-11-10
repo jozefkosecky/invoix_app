@@ -501,6 +501,15 @@
                     "Opravená chyba súvisiaca s položkami s expiráciou na sklade (iba v režime aplikácie „Predaj“)."
                 ]
             }
+        },
+        {
+            "version": "1.3.6",
+            "changes": {
+                "news": [
+                    "Zmenené dátové štruktúry."
+                ],
+                "fixed_bugs": []
+            }
         }
     ]
 }
