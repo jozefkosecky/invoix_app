@@ -1,525 +1,543 @@
 {
-    "versions": [
-        {
-            "version": "1.2.1",
-            "changes": {
-                "news": [
-                    "Zľavy a služby započítané v tržbách.",
-                    "Zľavy a služby započítané vo faktúrach.",
-                    "Zľavy a služby započítané v dodacích listoch."
-                ],
-                "fixed_bugs": [
-                    "Opravená chyba s označovaním objednávok."
-                ]
-            }
-        },
-        {
-            "version": "1.2.2",
-            "changes": {
-                "news": [
-                    "Pridaná možnosť nastavenia stavu objednávky."
-                ],
-                "fixed_bugs": [
-                    "Odstránený problém s označením objednávok.",
-                    "Odstránený problém s upravovaním faktúr."
-                ]
-            }
-        },
-        {
-            "version": "1.2.3",
-            "changes": {
-                "news": [
-                    "Pridané funkcie skladového hospodárstva.",
-                    "Pridaná funkcia vytvárania výrobkov a služieb priamo v objednávke.",
-                    "Pridaná funkcia vytvárania zákazníkov priamo v objednávke.",
-                    "Možnosť nastaviť hmotnosť výrobku.",
-                    "Zobrazenie hmotnosti celej objednávky.",
-                    "Zmena navigácie medzi jednotlivými výrobkami."
-                ],
-                "fixed_bugs": [
-                    "Odstránený problém so zobrazovaním vymazaných výrobkov pri vytváraní objednávky."
-                ]
-            }
-        },
-        {
-            "version": "1.2.4",
-            "changes": {
-                "news": [
-                    "Hromadná zmena DPH hladín."
-                ],
-                "fixed_bugs": []
-            }
-        },
-        {
-            "version": "1.2.6",
-            "changes": {
-                "news": [],
-                "fixed_bugs": [
-                    "Opravený problém s označovaním.",
-                    "Opravený problém s vyhľadávaním vo faktúrach."
-                ]
-            }
-        },
-        {
-            "version": "1.2.7",
-            "changes": {
-                "news": [
-                    "Zmena zachytávania a riešenie errorov."
-                ],
-                "fixed_bugs": []
-            }
-        },
-        {
-            "version": "1.2.8",
-            "changes": {
-                "news": [
-                    "Zmena cenníka priamo pri vytváraní objednávky, bez vymazania už pridaných produktov."
-                ],
-                "fixed_bugs": [
-                    "Oprava číslovanie faktúr podľa obdobia fakturácie.",
-                    "Oprava sadzieb DPH v dodacích listoch, po ich zmene.",
-                    "Použitie správneho cenníka pri kopírovaní objednávok."
-                ]
-            }
-        },
-        {
-            "version": "1.2.9",
-            "changes": {
-                "news": [],
-                "fixed_bugs": [
-                    "Odstránie chyby, kedy pri kopírovaní objednávky, na základe ktorej už bola vystavená faktúra, tak sa táto skopírovaná objednávka zobrazila na faktúre s pôvodnou objednávkou."
-                ]
-            }
-        },
-        {
-            "version": "1.2.10",
-            "changes": {
-                "news": [
-                    "Zobrazenie všetkých zmien v aplikácii po kliknutí na ikonu v hornej lište.",
-                    "Možnosť zobrazenia historického stavu skladu.",
-                    "Zobrazenie štatistík príjmov, výdajov a zostatkov tovaru na sklade.",
-                    "Automatická tvorba podskladových kariet na základe ich ceny pri naskladňovaní.",
-                    "Zobrazenie skladových kariet spolu s podskladovými kartami.",
-                    "Úprava vzhľadu kariet zobrazujúcich pohyby na sklade.",
-                    "Prednastavený rozsah 30 dní pri pohyboch na sklade.",
-                    "Intuitívnejší proces tvorby pohybov na sklade.",
-                    "Zakázaná možnosť zmeny dátumu a typu pohybu už vo vytvorenom pohybe na sklade."
-                ],
-                "fixed_bugs": [
-                    "Zaokrúhľovanie stavu zásob v sklade na 3 desatinné miesta."
-                ]
-            }
-        },
-        {
-            "version": "1.2.11",
-            "changes": {
-                "news": [],
-                "fixed_bugs": [
-                    "Odstránenie chyby pri kopírovaní objednávok. Program pri neprepojených produktoch so skladovými kartami nesprávne vyhodnocoval, že na sklade nie je dostatok zásob."
-                ]
-            }
-        },
-        {
-            "version": "1.2.12",
-            "changes": {
-                "news": [
-                    "Vytvorenie novej skupiny výrobkov po stlačení ENTER.",
-                    "Zoradenie skupiny výrobkov na základe \"rozsahu od\".",
-                    "Možnosť prepojenia názvu skladovej karty s názvom výrobku."
-                ],
-                "fixed_bugs": [
-                    "Pridaná možnosť scrollovania tabuľky so skupinami výrobkov."
-                ]
-            }
-        },
-        {
-            "version": "1.2.13",
-            "changes": {
-                "news": [
-                    "Možnosť posúvania medzi textovými poliami pri vytváraní objednávky alebo skladového pohybu pomocou šípok na klávesnici."
-                ],
-                "fixed_bugs": [
-                    "Automatická zmena stavu skladu na základe objednávky."
-                ]
-            }
-        },
-        {
-            "version": "1.2.14",
-            "changes": {
-                "news": [
-                    "Zmena zobrazenia výrobkov, skupín a práce s nimi.",
-                    "V prípade, ak sú výrobky prepojené so skladovými kartami, je možné vybrať výrobky na naskladnenie označením viacerých položiek z výrobkov rozdelených podľa vášho rozdelenia.",
-                    "Zmena vzhľadu objednávok pre lepšiu vizuálnu indikáciu nastaveného statusu objednávky."
-                ],
-                "fixed_bugs": []
-            }
-        },
-        {
-            "version": "1.2.15",
-            "changes": {
-                "news": [],
-                "fixed_bugs": [
-                    "Hot fix: Zobrazenie tlačidiel na úpravu cenníkov."
-                ]
-            }
-        },
-        {
-            "version": "1.2.16",
-            "changes": {
-                "news": [
-                    "Zobrazenie podrobných informácií o zákazníkovi pri objednávke po kliknutí na jeho meno/názov."
-                ],
-                "fixed_bugs": []
-            }
-        },
-        {
-            "version": "1.2.17",
-            "changes": {
-                "news": [
-                    "Vizuálna zmena zobrazenia skladových kariet spolu s nasledujúcimi vylepšeniami: 1. Zobrazenie podskladových kariet spolu s vysvetlivkami. 2. Zobrazenie štatistík pohybov. 3. Zobrazenie pohybov.",
-                    "Možnosť zoradiť skladové karty na základe množstva.",
-                    "Možnosť filtrovať pohyby podľa skladovej karty.",
-                    "Možnosť pridať poznámku k objednávke.",
-                    "Zobrazenie chystaných zmien ešte pred aktualizáciou.",
-                    "Možnosť odmietnuť aktualizáciu a nezobrazovať výzvu na jej vykonanie.",
-                    "Možnosť vyhľadať a vykonať aktualizácie v nastaveniach aplikácie."
-                ],
-                "fixed_bugs": [
-                    "Automaticky nastavená preferovaná daňová hladina pri tvorbe skladovej karty.",
-                    "Správne zobrazenie skladových kariet s nedostatočným množstvom.",
-                    "Nezobrazovanie skladových kariet, ktoré boli vymazané pri tvorbe nového skladového pohybu."
-                ]
-            }
-        },
-        {
-            "version": "1.2.18",
-            "changes": {
-                "news": [
-                    "Možnosť zadať telefónne číslo s predvoľbou (+421...).",
-                    "Nastavenie niektorých textových polí ako voliteľných namiesto povinných pri zákazníkovi, spoločnosti a osobných informáciách.",
-                    "Automatické nastavenie typu platby, typu faktúry a doby splatnosti pri vytváraní zákazníka.",
-                    "Zmena zobrazovania adresy zákazníka. Po novom: Ulica, PSČ, Mesto.",
-                    "Pridaná možnosť nastaviť štát zákazníka.",
-                    "Zobrazenie dostupného množstva na sklade pri tvorbe objednávky, ak je výrobok prepojený so skladovou kartou.",
-                    "Prehľadnejšie zaokrúhľovanie dostupného množstva na sklade. Doteraz sa zobrazovalo napr. 1.200 kg, po novom 1.2 kg."
-                ],
-                "fixed_bugs": []
-            }
-        },
-        {
-            "version": "1.2.19",
-            "changes": {
-                "news": [],
-                "fixed_bugs": [
-                    "Hot fix: Správne ukladanie štátu pri doručovacej adrese."
-                ]
-            }
-        },
-        {
-            "version": "1.2.20",
-            "changes": {
-                "news": [
-                    "Pridaná možnosť zmeniť vzhľad objednávok v nastaveniach na minimalistický.",
-                    "Zobrazenie vývoja ceny naskladňovaného tovaru.",
-                    "Možnosť vyhľadávať v objednávkach podľa mena alebo e-mailu zákazníka, prípadne podľa poznámky v objednávke.",
-                    "Možnosť filtrovať objednávky podľa viacerých statusov.",
-                    "Úprava navigácie v aplikácii pre rýchlejšiu prácu.",
-                    "Zapamätanie stavu navigácie aj pri prepínaní medzi hlavnými sekciami (výroba/predaj a sklad).",
-                    "Zobrazenie hmotnosti objednávky v gramoch, ak nepresiahne 10 kg. Ak presiahne, hmotnosť sa zobrazí v kilogramoch."
-                ],
-                "fixed_bugs": []
-            }
-        },
-        {
-            "version": "1.2.21",
-            "changes": {
-                "news": [
-                    "Zobrazenie dátumu pri prejdení myšou nad čiaru v grafe vývoja ceny naskladňovaného tovaru."
-                ],
-                "fixed_bugs": [
-                    "Opravená chyba, pri ktorej v niektorých prípadoch neboli správne vypočítané hodnoty v grafe zmien skladovej karty.",
-                    "Podobná chyba aj pri grafe s vývojom ceny naskladňovaného tovaru."
-                ]
-            }
-        },
-        {
-            "version": "1.2.22",
-            "changes": {
-                "news": [
-                    "Možnosť editovať zákazníka priamo v objednávke.",
-                    "Možnosť zmeniť veľkosť písma v celej aplikácii v nastaveniach.",
-                    "Možnosť označiť skladové karty v tabuľke pri vytváraní skladového pohybu a pridať expiráciu označeným skladovým kartám.",
-                    "Možnosť označiť výrobky v tabuľke pri vytváraní objednávky a pridať zľavu označeným výrobkom.",
-                    "Zobrazenie načítavania pri zápise do databázy, aby nedošlo k neočakávanému správaniu."
-                ],
-                "fixed_bugs": [
-                    "Opravená chyba, pri ktorej vo vyhľadávaní zostala posledná vyhľadaná položka."
-                ]
-            }
-        },
-        {
-            "version": "1.2.23",
-            "changes": {
-                "news": [],
-                "fixed_bugs": [
-                    "Opravená kritická chyba. Doporučujeme aktualizáciu. Ak boli výrobky prepojené so skladovou kartou a došlo k zmene stavu objednávky, pohyb na sklade, ktorý bol na jej základe vytvorený, sa nesprávne vymazával. Táto chyba bola opravená."
-                ]
-            }
-        },
-        {
-            "version": "1.2.24",
-            "changes": {
-                "news": [
-                    "V hornej lište aplikácie pribudol poznámkový blok.",
-                    "Pridaná možnosť zadať zľavu na službu pri tvorbe objednávky."
-                ],
-                "fixed_bugs": []
-            }
-        },
-        {
-            "version": "1.2.25",
-            "changes": {
-                "news": [
-                    "Možnosť zvoliť si vlastný rozsah a zobrazenie grafu vývoja stavu skladovej karty.",
-                    "Možnosť označiť rozsah dátumov aj v opačnom poradí. Príklad: doteraz bolo možné označiť len rozsah 1. 2. 2025 -> 15. 2. 2025. Odteraz je možné aj opačné poradie: 15. 2. 2025 -> 1. 2. 2025."
-                ],
-                "fixed_bugs": []
-            }
-        },
-        {
-            "version": "1.2.26",
-            "changes": {
-                "news": [
-                    "Optimalizované vyhľadávanie pre rýchlejšiu odozvu.",
-                    "Zobrazenie celkového vydaného/prijatého množstva na sklade za vybrané obdobie nad grafom pohybov skladovej karty."
-                ],
-                "fixed_bugs": []
-            }
-        },
-        {
-            "version": "1.2.27",
-            "changes": {
-                "news": [
-                    "Zobrazenie počtu označených objednávok.",
-                    "Vyhľadávanie zákazníka podľa e-mailovej adresy (je potrebné zapnúť v nastaveniach).",
-                    "Možnosť pridať zľavu na celú objednávku v eurách."
-                ],
-                "fixed_bugs": [
-                    "Opravená chyba tlače cenníka s väčším počtom výrobkov."
-                ]
-            }
-        },
-        {
-            "version": "1.2.28",
-            "changes": {
-                "news": [
-                    "Možnosť kopírovať údaje zákazníka pomocou kopírovacieho tlačidla.",
-                    "Možnosť zmeniť rozsah načítavaných objednávok."
-                ],
-                "fixed_bugs": [
-                    "Úprava faktúr po vymazaní objednávky alebo vytvorení novej.",
-                    "Oprava vyhľadávania v objednávkach."
-                ]
-            }
-        },
-        {
-            "version": "1.2.29",
-            "changes": {
-                "news": [],
-                "fixed_bugs": [
-                    "Zmenený spôsob zaokrúhľovania.",
-                    "Dynamická zmena stavu zobrazujúceho, či sa fakturačná a dodacia adresa zhodujú pri zákazníkovi.",
-                    "Opravená chyba s odstraňovaním služieb z objednávky.",
-                    "Opravená chyba pri označovaní objednávok."
-                ]
-            }
-        },
-        {
-            "version": "1.2.30",
-            "changes": {
-                "news": [
-                    "Pridaná funkcia na vytváranie e-podacích hárkov z objednávok pre Slovenskú poštu. Treba ju aktivovať v nastaveniach!",
-                    "Pri výdajnej skladovej karte vytvorenej na základe objednávky sa teraz zobrazuje, pre ktorého zákazníka bola vytvorená.",
-                    "Možnosť zmeniť poradie statusov objednávky.",
-                    "Možnosť pridať poznámku priamo ku klientovi."
-                ],
-                "fixed_bugs": []
-            }
-        },
-        {
-            "version": "1.2.31",
-            "changes": {
-                "news": [
-                    "Export objednávok do formátu XML Doporučený list (ePodací hárok Slovenskej pošty).",
-                    "Pridaná možnosť upraviť poznámku zákazníka na viacerých miestach."
-                ],
-                "fixed_bugs": [
-                    "Správne zobrazovanie štátu pri minimalistických objednávkach."
-                ]
-            }
-        },
-        {
-            "version": "1.2.32",
-            "changes": {
-                "news": [],
-                "fixed_bugs": [
-                    "Opravený problém, kedy mohol program zobrazovať nesprávne údaje kvôli zmene zo zimného času na letný.",
-                    "Opravené vyhľadávanie zákazníkov.",
-                    "Zobrazenie cien v grafe vývoja ceny skladovej karty na viac desatinných miest."
-                ]
-            }
-        },
-        {
-            "version": "1.2.33",
-            "changes": {
-                "news": [
-                    "Zobrazenie podrobnejšieho prehľadu pre výrobu."
-                ],
-                "fixed_bugs": []
-            }
-        },
-        {
-            "version": "1.2.34",
-            "changes": {
-                "news": [
-                    "Zjednodušené zobrazovanie mena zákazníka v podrobnom prehľade pre výrobu.",
-                    "Aplikácia si teraz pamätá zmeny v objednávke vykonané po vystavení dodacieho listu.",
-                    "V prehľade stavu skladu sa zobrazuje potenciálny zisk, ak je skladová karta priamo prepojená s výrobkom.",
-                    "V tržbách sa zobrazujú materiálové náklady, ak je skladová karta priamo prepojená s výrobkom."
-                ],
-                "fixed_bugs": []
-            }
-        },
-        {
-            "version": "1.2.35",
-            "changes": {
-                "news": [
-                    "Pridané upozornenie, ak chce používateľ upraviť objednávku, pre ktorú už bol vytlačený dodací list.",
-                    "Export objednávok do formátu XML – Poistený list (ePodací hárok Slovenskej pošty)."
-                ],
-                "fixed_bugs": [
-                    "Nepýtať sa na dôvod odstránenia objednávky, ak ešte nebol vystavený dodací list.",
-                    "Zobrazenie dátumu a času poslednej úpravy objednávky."
-                ]
-            }
-        },
-        {
-            "version": "1.2.36",
-            "changes": {
-                "news": [
-                    "Export objednávok do formátu XML – Expres kuriér (ePodací hárok Slovenskej pošty).",
-                    "Export objednávok do formátu XML – EMS zásielka (ePodací hárok Slovenskej pošty)."
-                ],
-                "fixed_bugs": [
-                    "Opravené informácie prehľadu výroby a tržieb pre obdobie 1.5.2024 - 1.7.2024"
-                ]
-            }
-        },
-        {
-            "version": "1.2.37",
-            "changes": {
-                "news": [
-                    "Vnútorné úpravy databázovej štruktúry."
-                ],
-                "fixed_bugs": []
-            }
-        },
-        {
-            "version": "1.3.0",
-            "changes": {
-                "news": [
-                    "Automatický odpočet skladu na základe objednávok.",
-                    "Pridaná funkcia na vytvorenie inventúry skladu.",
-                    "Možnosť vytvoriť recepty pre výrobky.",
-                    "Možnosť rozdeliť skladové karty do skupín.",
-                    "Export prehľadu pre výrobu do Excelu.",
-                    "Možnosť meniť status viacerým objednávkam naraz.",
-                    "Možnosť vypnúť funkciu kopírovania objednávok.",
-                    "Možnosť uzamknúť nastavenia aplikácie pomocou hesla.",
-                    "Možnosť nastaviť globálny dátum v rámci celej aplikácie.",
-                    "Možnosť pridať číslo na skladovú kartu.",
-                    "Možnosť nemať žiadny stav objednávky ako predvolený.",
-                    "V jednoduchom prehľade označiť výrobky priamo a pri tlači zobraziť, kto si ich objednal.",
-                    "Zobrazenie celkového množstva výrobkov v podrobnom prehľade.",
-                    "Pri sťahovaní dát aplikácie automaticky pridať dátum do názvu súboru.",
-                    "Zobrazenie dňa v týždni pri dátume.",
-                    "Odstránenie spodnej hlavičky z tlačeného dokumentu súpiska."
-                ],
-                "fixed_bugs": []
-            }
-        },
-        {
-            "version": "1.3.1",
-            "changes": {
-                "news": [
-                    "Zmena veľkosti fontu v tlačených dokumentoch.",
-                    "Možnosť zmenšiť hlavné navigačné menu do kompaknejšej verzie."
-                ],
-                "fixed_bugs": [
-                    "Opravený export prehľadu pre výrobu do Excelu."
-                ]
-            }
-        },
-        {
-            "version": "1.3.2",
-            "changes": {
-                "news": [
-                    "Možnosť zobraziť sumár označených objednávok."
-                ],
-                "fixed_bugs": [
-                    "Zaokrúhlenie nezmyselných desatinných čísel."
-                ]
-            }
-        },
-        {
-            "version": "1.3.3",
-            "changes": {
-                "news": [
-                    "Možnosť exportovať cenníky do Excelu.",
-                    "Možnosť vybrať priečinok a nastaviť automatickú zálohu pri každom vypnutí programu.",
-                    "Optimalizovaný výkon pri kopírovaní objednávok."
-                ],
-                "fixed_bugs": []
-            }
-        },
-        {
-            "version": "1.3.4",
-            "changes": {
-                "news": [],
-                "fixed_bugs": [
-                    "Zobrazenie správneho množstva pri inventúre.",
-                    "Zobrazenie správneho množstva v grafe vývoja stavu skladu.",
-                    "Zobrazenie správneho množstva pri historickom stave."
-                ]
-            }
-        },
-        {
-            "version": "1.3.5",
-            "changes": {
-                "news": [],
-                "fixed_bugs": [
-                    "Opravená chyba súvisiaca s položkami s expiráciou na sklade (iba v režime aplikácie „Predaj“)."
-                ]
-            }
-        },
-        {
-            "version": "1.3.6",
-            "changes": {
-                "news": [
-                    "Zmenené dátové štruktúry."
-                ],
-                "fixed_bugs": []
-            }
-        },
-        {
-            "version": "1.3.7",
-            "changes": {
-                "news": [],
-                "fixed_bugs": [
-                    "Opravená chyba súvisiaca s odstránením inventúry. Následne nesedeli množstvá skladových surovín.",
-                    "Pridanie tlačidla na odstránenie skladových kariet (pravým kliknutím myši na skladovej karte)."
-                ]
-            }
-        }
-    ]
+  "versions": [
+    {
+      "version": "1.2.1",
+      "changes": {
+        "news": [
+          "Zľavy a služby započítané v tržbách.",
+          "Zľavy a služby započítané vo faktúrach.",
+          "Zľavy a služby započítané v dodacích listoch."
+        ],
+        "fixed_bugs": [
+          "Opravená chyba s označovaním objednávok."
+        ]
+      }
+    },
+    {
+      "version": "1.2.2",
+      "changes": {
+        "news": [
+          "Pridaná možnosť nastavenia stavu objednávky."
+        ],
+        "fixed_bugs": [
+          "Odstránený problém s označením objednávok.",
+          "Odstránený problém s upravovaním faktúr."
+        ]
+      }
+    },
+    {
+      "version": "1.2.3",
+      "changes": {
+        "news": [
+          "Pridané funkcie skladového hospodárstva.",
+          "Pridaná funkcia vytvárania výrobkov a služieb priamo v objednávke.",
+          "Pridaná funkcia vytvárania zákazníkov priamo v objednávke.",
+          "Možnosť nastaviť hmotnosť výrobku.",
+          "Zobrazenie hmotnosti celej objednávky.",
+          "Zmena navigácie medzi jednotlivými výrobkami."
+        ],
+        "fixed_bugs": [
+          "Odstránený problém so zobrazovaním vymazaných výrobkov pri vytváraní objednávky."
+        ]
+      }
+    },
+    {
+      "version": "1.2.4",
+      "changes": {
+        "news": [
+          "Hromadná zmena DPH hladín."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.2.6",
+      "changes": {
+        "news": [],
+        "fixed_bugs": [
+          "Opravený problém s označovaním.",
+          "Opravený problém s vyhľadávaním vo faktúrach."
+        ]
+      }
+    },
+    {
+      "version": "1.2.7",
+      "changes": {
+        "news": [
+          "Zmena zachytávania a riešenie errorov."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.2.8",
+      "changes": {
+        "news": [
+          "Zmena cenníka priamo pri vytváraní objednávky, bez vymazania už pridaných produktov."
+        ],
+        "fixed_bugs": [
+          "Oprava číslovanie faktúr podľa obdobia fakturácie.",
+          "Oprava sadzieb DPH v dodacích listoch, po ich zmene.",
+          "Použitie správneho cenníka pri kopírovaní objednávok."
+        ]
+      }
+    },
+    {
+      "version": "1.2.9",
+      "changes": {
+        "news": [],
+        "fixed_bugs": [
+          "Odstránie chyby, kedy pri kopírovaní objednávky, na základe ktorej už bola vystavená faktúra, tak sa táto skopírovaná objednávka zobrazila na faktúre s pôvodnou objednávkou."
+        ]
+      }
+    },
+    {
+      "version": "1.2.10",
+      "changes": {
+        "news": [
+          "Zobrazenie všetkých zmien v aplikácii po kliknutí na ikonu v hornej lište.",
+          "Možnosť zobrazenia historického stavu skladu.",
+          "Zobrazenie štatistík príjmov, výdajov a zostatkov tovaru na sklade.",
+          "Automatická tvorba podskladových kariet na základe ich ceny pri naskladňovaní.",
+          "Zobrazenie skladových kariet spolu s podskladovými kartami.",
+          "Úprava vzhľadu kariet zobrazujúcich pohyby na sklade.",
+          "Prednastavený rozsah 30 dní pri pohyboch na sklade.",
+          "Intuitívnejší proces tvorby pohybov na sklade.",
+          "Zakázaná možnosť zmeny dátumu a typu pohybu už vo vytvorenom pohybe na sklade."
+        ],
+        "fixed_bugs": [
+          "Zaokrúhľovanie stavu zásob v sklade na 3 desatinné miesta."
+        ]
+      }
+    },
+    {
+      "version": "1.2.11",
+      "changes": {
+        "news": [],
+        "fixed_bugs": [
+          "Odstránenie chyby pri kopírovaní objednávok. Program pri neprepojených produktoch so skladovými kartami nesprávne vyhodnocoval, že na sklade nie je dostatok zásob."
+        ]
+      }
+    },
+    {
+      "version": "1.2.12",
+      "changes": {
+        "news": [
+          "Vytvorenie novej skupiny výrobkov po stlačení ENTER.",
+          "Zoradenie skupiny výrobkov na základe \"rozsahu od\".",
+          "Možnosť prepojenia názvu skladovej karty s názvom výrobku."
+        ],
+        "fixed_bugs": [
+          "Pridaná možnosť scrollovania tabuľky so skupinami výrobkov."
+        ]
+      }
+    },
+    {
+      "version": "1.2.13",
+      "changes": {
+        "news": [
+          "Možnosť posúvania medzi textovými poliami pri vytváraní objednávky alebo skladového pohybu pomocou šípok na klávesnici."
+        ],
+        "fixed_bugs": [
+          "Automatická zmena stavu skladu na základe objednávky."
+        ]
+      }
+    },
+    {
+      "version": "1.2.14",
+      "changes": {
+        "news": [
+          "Zmena zobrazenia výrobkov, skupín a práce s nimi.",
+          "V prípade, ak sú výrobky prepojené so skladovými kartami, je možné vybrať výrobky na naskladnenie označením viacerých položiek z výrobkov rozdelených podľa vášho rozdelenia.",
+          "Zmena vzhľadu objednávok pre lepšiu vizuálnu indikáciu nastaveného statusu objednávky."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.2.15",
+      "changes": {
+        "news": [],
+        "fixed_bugs": [
+          "Hot fix: Zobrazenie tlačidiel na úpravu cenníkov."
+        ]
+      }
+    },
+    {
+      "version": "1.2.16",
+      "changes": {
+        "news": [
+          "Zobrazenie podrobných informácií o zákazníkovi pri objednávke po kliknutí na jeho meno/názov."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.2.17",
+      "changes": {
+        "news": [
+          "Vizuálna zmena zobrazenia skladových kariet spolu s nasledujúcimi vylepšeniami: 1. Zobrazenie podskladových kariet spolu s vysvetlivkami. 2. Zobrazenie štatistík pohybov. 3. Zobrazenie pohybov.",
+          "Možnosť zoradiť skladové karty na základe množstva.",
+          "Možnosť filtrovať pohyby podľa skladovej karty.",
+          "Možnosť pridať poznámku k objednávke.",
+          "Zobrazenie chystaných zmien ešte pred aktualizáciou.",
+          "Možnosť odmietnuť aktualizáciu a nezobrazovať výzvu na jej vykonanie.",
+          "Možnosť vyhľadať a vykonať aktualizácie v nastaveniach aplikácie."
+        ],
+        "fixed_bugs": [
+          "Automaticky nastavená preferovaná daňová hladina pri tvorbe skladovej karty.",
+          "Správne zobrazenie skladových kariet s nedostatočným množstvom.",
+          "Nezobrazovanie skladových kariet, ktoré boli vymazané pri tvorbe nového skladového pohybu."
+        ]
+      }
+    },
+    {
+      "version": "1.2.18",
+      "changes": {
+        "news": [
+          "Možnosť zadať telefónne číslo s predvoľbou (+421...).",
+          "Nastavenie niektorých textových polí ako voliteľných namiesto povinných pri zákazníkovi, spoločnosti a osobných informáciách.",
+          "Automatické nastavenie typu platby, typu faktúry a doby splatnosti pri vytváraní zákazníka.",
+          "Zmena zobrazovania adresy zákazníka. Po novom: Ulica, PSČ, Mesto.",
+          "Pridaná možnosť nastaviť štát zákazníka.",
+          "Zobrazenie dostupného množstva na sklade pri tvorbe objednávky, ak je výrobok prepojený so skladovou kartou.",
+          "Prehľadnejšie zaokrúhľovanie dostupného množstva na sklade. Doteraz sa zobrazovalo napr. 1.200 kg, po novom 1.2 kg."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.2.19",
+      "changes": {
+        "news": [],
+        "fixed_bugs": [
+          "Hot fix: Správne ukladanie štátu pri doručovacej adrese."
+        ]
+      }
+    },
+    {
+      "version": "1.2.20",
+      "changes": {
+        "news": [
+          "Pridaná možnosť zmeniť vzhľad objednávok v nastaveniach na minimalistický.",
+          "Zobrazenie vývoja ceny naskladňovaného tovaru.",
+          "Možnosť vyhľadávať v objednávkach podľa mena alebo e-mailu zákazníka, prípadne podľa poznámky v objednávke.",
+          "Možnosť filtrovať objednávky podľa viacerých statusov.",
+          "Úprava navigácie v aplikácii pre rýchlejšiu prácu.",
+          "Zapamätanie stavu navigácie aj pri prepínaní medzi hlavnými sekciami (výroba/predaj a sklad).",
+          "Zobrazenie hmotnosti objednávky v gramoch, ak nepresiahne 10 kg. Ak presiahne, hmotnosť sa zobrazí v kilogramoch."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.2.21",
+      "changes": {
+        "news": [
+          "Zobrazenie dátumu pri prejdení myšou nad čiaru v grafe vývoja ceny naskladňovaného tovaru."
+        ],
+        "fixed_bugs": [
+          "Opravená chyba, pri ktorej v niektorých prípadoch neboli správne vypočítané hodnoty v grafe zmien skladovej karty.",
+          "Podobná chyba aj pri grafe s vývojom ceny naskladňovaného tovaru."
+        ]
+      }
+    },
+    {
+      "version": "1.2.22",
+      "changes": {
+        "news": [
+          "Možnosť editovať zákazníka priamo v objednávke.",
+          "Možnosť zmeniť veľkosť písma v celej aplikácii v nastaveniach.",
+          "Možnosť označiť skladové karty v tabuľke pri vytváraní skladového pohybu a pridať expiráciu označeným skladovým kartám.",
+          "Možnosť označiť výrobky v tabuľke pri vytváraní objednávky a pridať zľavu označeným výrobkom.",
+          "Zobrazenie načítavania pri zápise do databázy, aby nedošlo k neočakávanému správaniu."
+        ],
+        "fixed_bugs": [
+          "Opravená chyba, pri ktorej vo vyhľadávaní zostala posledná vyhľadaná položka."
+        ]
+      }
+    },
+    {
+      "version": "1.2.23",
+      "changes": {
+        "news": [],
+        "fixed_bugs": [
+          "Opravená kritická chyba. Doporučujeme aktualizáciu. Ak boli výrobky prepojené so skladovou kartou a došlo k zmene stavu objednávky, pohyb na sklade, ktorý bol na jej základe vytvorený, sa nesprávne vymazával. Táto chyba bola opravená."
+        ]
+      }
+    },
+    {
+      "version": "1.2.24",
+      "changes": {
+        "news": [
+          "V hornej lište aplikácie pribudol poznámkový blok.",
+          "Pridaná možnosť zadať zľavu na službu pri tvorbe objednávky."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.2.25",
+      "changes": {
+        "news": [
+          "Možnosť zvoliť si vlastný rozsah a zobrazenie grafu vývoja stavu skladovej karty.",
+          "Možnosť označiť rozsah dátumov aj v opačnom poradí. Príklad: doteraz bolo možné označiť len rozsah 1. 2. 2025 -> 15. 2. 2025. Odteraz je možné aj opačné poradie: 15. 2. 2025 -> 1. 2. 2025."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.2.26",
+      "changes": {
+        "news": [
+          "Optimalizované vyhľadávanie pre rýchlejšiu odozvu.",
+          "Zobrazenie celkového vydaného/prijatého množstva na sklade za vybrané obdobie nad grafom pohybov skladovej karty."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.2.27",
+      "changes": {
+        "news": [
+          "Zobrazenie počtu označených objednávok.",
+          "Vyhľadávanie zákazníka podľa e-mailovej adresy (je potrebné zapnúť v nastaveniach).",
+          "Možnosť pridať zľavu na celú objednávku v eurách."
+        ],
+        "fixed_bugs": [
+          "Opravená chyba tlače cenníka s väčším počtom výrobkov."
+        ]
+      }
+    },
+    {
+      "version": "1.2.28",
+      "changes": {
+        "news": [
+          "Možnosť kopírovať údaje zákazníka pomocou kopírovacieho tlačidla.",
+          "Možnosť zmeniť rozsah načítavaných objednávok."
+        ],
+        "fixed_bugs": [
+          "Úprava faktúr po vymazaní objednávky alebo vytvorení novej.",
+          "Oprava vyhľadávania v objednávkach."
+        ]
+      }
+    },
+    {
+      "version": "1.2.29",
+      "changes": {
+        "news": [],
+        "fixed_bugs": [
+          "Zmenený spôsob zaokrúhľovania.",
+          "Dynamická zmena stavu zobrazujúceho, či sa fakturačná a dodacia adresa zhodujú pri zákazníkovi.",
+          "Opravená chyba s odstraňovaním služieb z objednávky.",
+          "Opravená chyba pri označovaní objednávok."
+        ]
+      }
+    },
+    {
+      "version": "1.2.30",
+      "changes": {
+        "news": [
+          "Pridaná funkcia na vytváranie e-podacích hárkov z objednávok pre Slovenskú poštu. Treba ju aktivovať v nastaveniach!",
+          "Pri výdajnej skladovej karte vytvorenej na základe objednávky sa teraz zobrazuje, pre ktorého zákazníka bola vytvorená.",
+          "Možnosť zmeniť poradie statusov objednávky.",
+          "Možnosť pridať poznámku priamo ku klientovi."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.2.31",
+      "changes": {
+        "news": [
+          "Export objednávok do formátu XML Doporučený list (ePodací hárok Slovenskej pošty).",
+          "Pridaná možnosť upraviť poznámku zákazníka na viacerých miestach."
+        ],
+        "fixed_bugs": [
+          "Správne zobrazovanie štátu pri minimalistických objednávkach."
+        ]
+      }
+    },
+    {
+      "version": "1.2.32",
+      "changes": {
+        "news": [],
+        "fixed_bugs": [
+          "Opravený problém, kedy mohol program zobrazovať nesprávne údaje kvôli zmene zo zimného času na letný.",
+          "Opravené vyhľadávanie zákazníkov.",
+          "Zobrazenie cien v grafe vývoja ceny skladovej karty na viac desatinných miest."
+        ]
+      }
+    },
+    {
+      "version": "1.2.33",
+      "changes": {
+        "news": [
+          "Zobrazenie podrobnejšieho prehľadu pre výrobu."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.2.34",
+      "changes": {
+        "news": [
+          "Zjednodušené zobrazovanie mena zákazníka v podrobnom prehľade pre výrobu.",
+          "Aplikácia si teraz pamätá zmeny v objednávke vykonané po vystavení dodacieho listu.",
+          "V prehľade stavu skladu sa zobrazuje potenciálny zisk, ak je skladová karta priamo prepojená s výrobkom.",
+          "V tržbách sa zobrazujú materiálové náklady, ak je skladová karta priamo prepojená s výrobkom."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.2.35",
+      "changes": {
+        "news": [
+          "Pridané upozornenie, ak chce používateľ upraviť objednávku, pre ktorú už bol vytlačený dodací list.",
+          "Export objednávok do formátu XML – Poistený list (ePodací hárok Slovenskej pošty)."
+        ],
+        "fixed_bugs": [
+          "Nepýtať sa na dôvod odstránenia objednávky, ak ešte nebol vystavený dodací list.",
+          "Zobrazenie dátumu a času poslednej úpravy objednávky."
+        ]
+      }
+    },
+    {
+      "version": "1.2.36",
+      "changes": {
+        "news": [
+          "Export objednávok do formátu XML – Expres kuriér (ePodací hárok Slovenskej pošty).",
+          "Export objednávok do formátu XML – EMS zásielka (ePodací hárok Slovenskej pošty)."
+        ],
+        "fixed_bugs": [
+          "Opravené informácie prehľadu výroby a tržieb pre obdobie 1.5.2024 - 1.7.2024"
+        ]
+      }
+    },
+    {
+      "version": "1.2.37",
+      "changes": {
+        "news": [
+          "Vnútorné úpravy databázovej štruktúry."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.3.0",
+      "changes": {
+        "news": [
+          "Automatický odpočet skladu na základe objednávok.",
+          "Pridaná funkcia na vytvorenie inventúry skladu.",
+          "Možnosť vytvoriť recepty pre výrobky.",
+          "Možnosť rozdeliť skladové karty do skupín.",
+          "Export prehľadu pre výrobu do Excelu.",
+          "Možnosť meniť status viacerým objednávkam naraz.",
+          "Možnosť vypnúť funkciu kopírovania objednávok.",
+          "Možnosť uzamknúť nastavenia aplikácie pomocou hesla.",
+          "Možnosť nastaviť globálny dátum v rámci celej aplikácie.",
+          "Možnosť pridať číslo na skladovú kartu.",
+          "Možnosť nemať žiadny stav objednávky ako predvolený.",
+          "V jednoduchom prehľade označiť výrobky priamo a pri tlači zobraziť, kto si ich objednal.",
+          "Zobrazenie celkového množstva výrobkov v podrobnom prehľade.",
+          "Pri sťahovaní dát aplikácie automaticky pridať dátum do názvu súboru.",
+          "Zobrazenie dňa v týždni pri dátume.",
+          "Odstránenie spodnej hlavičky z tlačeného dokumentu súpiska."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.3.1",
+      "changes": {
+        "news": [
+          "Zmena veľkosti fontu v tlačených dokumentoch.",
+          "Možnosť zmenšiť hlavné navigačné menu do kompaknejšej verzie."
+        ],
+        "fixed_bugs": [
+          "Opravený export prehľadu pre výrobu do Excelu."
+        ]
+      }
+    },
+    {
+      "version": "1.3.2",
+      "changes": {
+        "news": [
+          "Možnosť zobraziť sumár označených objednávok."
+        ],
+        "fixed_bugs": [
+          "Zaokrúhlenie nezmyselných desatinných čísel."
+        ]
+      }
+    },
+    {
+      "version": "1.3.3",
+      "changes": {
+        "news": [
+          "Možnosť exportovať cenníky do Excelu.",
+          "Možnosť vybrať priečinok a nastaviť automatickú zálohu pri každom vypnutí programu.",
+          "Optimalizovaný výkon pri kopírovaní objednávok."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.3.4",
+      "changes": {
+        "news": [],
+        "fixed_bugs": [
+          "Zobrazenie správneho množstva pri inventúre.",
+          "Zobrazenie správneho množstva v grafe vývoja stavu skladu.",
+          "Zobrazenie správneho množstva pri historickom stave."
+        ]
+      }
+    },
+    {
+      "version": "1.3.5",
+      "changes": {
+        "news": [],
+        "fixed_bugs": [
+          "Opravená chyba súvisiaca s položkami s expiráciou na sklade (iba v režime aplikácie „Predaj“)."
+        ]
+      }
+    },
+    {
+      "version": "1.3.6",
+      "changes": {
+        "news": [
+          "Zmenené dátové štruktúry."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.3.7",
+      "changes": {
+        "news": [],
+        "fixed_bugs": [
+          "Opravená chyba súvisiaca s odstránením inventúry. Následne nesedeli množstvá skladových surovín.",
+          "Pridanie tlačidla na odstránenie skladových kariet (pravým kliknutím myši na skladovej karte)."
+        ]
+      }
+    },
+    {
+      "version": "1.3.8",
+      "changes": {
+        "news": [
+          "Možnosť nahrať pečiatku a podpis, ktoré sa následne zobrazia na faktúrach",
+          "Možnosť zobraziť sumár po označení faktúr",
+          "Možnosť definovať recepty",
+          "Možnosť definovať vozíky a plechy",
+          "Funkcia plánovania výroby",
+          "Automatický výdaj surovín zo skladu podľa receptov a naplánovanej výroby",
+          "Odstránenie prázdnych skladových kariet zo zobrazenia historického stavu skladu vo vytlačenom dokumente",
+          "Zmenené zobrazenie tlačeného dokumentu historického stavu skladu",
+          "Zobrazenie celkovej sumy inventúry",
+          "Možnosť nastaviť skladovým kartám alergény, zloženie a živiny"
+        ],
+        "fixed_bugs": []
+      }
+    }
+  ]
 }
