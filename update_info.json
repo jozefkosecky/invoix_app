@@ -538,6 +538,15 @@
         ],
         "fixed_bugs": []
       }
+    },
+    {
+      "version": "1.3.9",
+      "changes": {
+        "news": [],
+        "fixed_bugs": [
+          "Opravená chyba s vytváraním nového výrobku."
+        ]
+      }
     }
   ]
 }
