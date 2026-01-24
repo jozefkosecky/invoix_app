@@ -547,6 +547,17 @@
           "Opravená chyba s vytváraním nového výrobku."
         ]
       }
+    },
+    {
+      "version": "1.3.10",
+      "changes": {
+       "news": [
+          "Možnosť nastaviť veľkosť pečiatky vo faktúre.",
+          "Pri príjme tovaru na sklad program automaticky navrhuje poslednú cenu naskladňovaného tovaru.",
+          "Výpočet sumáru faktúr so zaokrúhlenými cenami pri hotovostnej platbe na 0,05 centa."
+        ],
+        "fixed_bugs": []
+      }
     }
   ]
 }
