@@ -572,7 +572,7 @@
       "version": "1.3.12",
       "changes": {
        "news": [
-         "Upravený kalendár na výber dátumového rozsahu."
+         "Upravený kalendár na výber rozsahu dátumov."
        ],
         "fixed_bugs": []
       }
