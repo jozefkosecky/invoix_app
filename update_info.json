@@ -567,6 +567,15 @@
           "Opravené chyby v rámci zobrazovania dát."
         ]
       }
+    },
+    {
+      "version": "1.3.12",
+      "changes": {
+       "news": [
+         "Upravený kalendár na výber dátumového rozsahu."
+       ],
+        "fixed_bugs": []
+      }
     }
   ]
 }
