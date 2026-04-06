@@ -600,6 +600,22 @@
         ],
         "fixed_bugs": []
       }
+    },
+    {
+      "version": "1.3.16",
+      "changes": {
+        "news": [
+          "Zobrazenie skladových kariet v inventúre a historickom stave rozdelených podľa definovaných skupín.",
+          "Úprava vzhľadu nastavení.",
+          "Možnosť zakázať editovanie skladových pohybov a inventúry.",
+          "Zaznamenávanie zmien nad skladovými pohybmi.",
+          "Pridaná funkcia zobrazenia dopadu zmeny pohybu na sklad.",
+          "Pri zmene zľavy zákazníka je možné túto zmenu preniesť aj na objednávky, ku ktorým ešte nebola vystavená faktúra."
+        ],
+        "fixed_bugs": [
+          "Správne zobrazenie zľavy na faktúre."
+        ]
+      }
     }
   ]
 }
