@@ -616,6 +616,55 @@
           "Správne zobrazenie zľavy na faktúre."
         ]
       }
+    },
+    {
+      "version": "1.3.17",
+      "changes": {
+        "news": [
+          "Pridaná funkcia exportu faktúr do formátu pre MRP.",
+          "Pridané nastavenia objednávok, pomocou ktorých je možné upraviť vzhľad zoznamu objednávok a tlač dodacích listov."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.3.18",
+      "changes": {
+        "news": [
+          "Pridaná funkcia generovania QR kódu vo faktúrach.",
+          "Zmenený vzhľad faktúr.",
+          "Pridaná možnosť nastaviť cieľový priečinok, do ktorého sa bude ukladať export faktúr pre MRP."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.3.19",
+      "changes": {
+        "news": [
+          "Možnosť nastaviť veľkosť písma pre každý tlačený dokument. Túto možnosť zobrazíte kliknutím pravým tlačidlom myši na ikonu tlačiarne."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.3.20",
+      "changes": {
+        "news": [
+          "Upravený text v dodacích listoch.",
+          "Kompaktnejšie zobrazenie dostupných výrobkov na obrazovke tvorby a úpravy objednávky.",
+          "Možnosť vybrať viacero výrobkov naraz na obrazovke tvorby a úpravy objednávky.",
+          "Možnosť nastaviť globálny počet kópií dodacích listov. Používateľ môže túto hodnotu naďalej nastaviť aj individuálne pre konkrétneho zákazníka.",
+          "Jednoduchšie zobrazenie zoznamu zákazníkov a spoločností.",
+          "Pridané GLN kódy pre faktúry a objednávky.",
+          "Pridaná možnosť evidovať IBAN pri zákazníkoch a spoločnostiach."
+        ],
+        "fixed_bugs": [
+          "Opravená chyba, pri ktorej sa vo výsledkoch vyhľadávania zobrazovali iba 4 výsledky.",
+          "Opravená chyba, pri ktorej si program nepamätal vybraný dátum v prehľade výroby a v pláne výroby po opustení obrazovky.",
+          "Opravená chyba, pri ktorej sa vymazané výrobky z cenníka nesprávne zobrazovali pri vytváraní novej objednávky, importe cenníka do nového cenníka alebo pri tlači cenníka."
+        ]
+      }
     }
   ]
 }
