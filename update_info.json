@@ -665,6 +665,19 @@
           "Opravená chyba, pri ktorej sa vymazané výrobky z cenníka nesprávne zobrazovali pri vytváraní novej objednávky, importe cenníka do nového cenníka alebo pri tlači cenníka."
         ]
       }
+    },
+    {
+      "version": "1.3.21",
+      "changes": {
+        "news": [
+          "Prepracované cenníky. Po novom je možné vytvárať tri typy cenníkov: všeobecný cenník, cenník odvodený od všeobecného cenníka a manuálny cenník.",
+          "Možnosť porovnávať cenníky medzi sebou.",
+          "Možnosť importovať skopírované údaje priamo z Excelu.",
+          "Možnosť priradiť jeden cenník viacerým zákazníkom.",
+          "Možnosť zmeniť trasu konkrétnej objednávke."
+        ],
+        "fixed_bugs": []
+      }
     }
   ]
 }
