@@ -674,7 +674,9 @@
           "Možnosť porovnávať cenníky medzi sebou.",
           "Možnosť importovať skopírované údaje priamo z Excelu.",
           "Možnosť priradiť jeden cenník viacerým zákazníkom.",
-          "Možnosť zmeniť trasu konkrétnej objednávke."
+          "Možnosť zmeniť trasu konkrétnej objednávke.",
+          "Upozornenie na opakujúcu sa objednávku pre zákazníka v rovnaký deň.",
+          "Možnosť importovať výrobky do novej objednávky z minulého týždňa pre vybraného zákazníka."
         ],
         "fixed_bugs": []
       }
