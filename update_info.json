@@ -688,7 +688,8 @@
           "Aplikácia vás upozorní, ak pre rovnakého zákazníka už existuje objednávka na rovnaký deň.",
           "Možnosť vypnúť import výrobkov do novej objednávky z minulého týždňa.",
           "Možnosť exportovať a importovať nastavenia aplikácie.",
-          "Pridaná funkcia hromadnej úpravy údajov zákazníkov."
+          "Pridaná funkcia hromadnej úpravy údajov zákazníkov.",
+          "Možnosť zadať evidenčné číslo Štátnej veterinárnej a potravinovej správy."
         ],
         "fixed_bugs": [
           "Lepšie ošetrenie chýb pri zatváraní aplikácie."
