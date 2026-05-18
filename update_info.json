@@ -695,6 +695,29 @@
           "Lepšie ošetrenie chýb pri zatváraní aplikácie."
         ]
       }
+    },
+    {
+      "version": "1.3.23",
+      "changes": {
+        "news": [
+          "Aplikácia bola premenovaná z pôvodného názvu Invoix na Ordi.",
+          "Pridaná možnosť importovať údaje a nastavenia zo starej aplikácie Invoix."
+        ],
+        "fixed_bugs": []
+      }
+    },
+    {
+      "version": "1.3.24",
+      "changes": {
+        "news": [
+          "Prepracované zobrazenie faktúr pre prehľadnejšiu prácu s dokladmi.",
+          "Pridaná možnosť vytvárať dobropisy.",
+          "Pridaná úvodná obrazovka pri spustení aplikácie, ktorá zobrazuje aktuálne informácie o načítavaní.",
+          "Pridaná možnosť importovať EDI objednávku priamo pri vytváraní objednávky. Táto funkcia je určená pre EDI objednávky od COOP Jednoty a je potrebné ju zapnúť v nastaveniach.",
+          "Pridané obmedzenie úprav objednávok, ku ktorým už bola vystavená faktúra. Úpravy je možné povoliť v nastaveniach."
+        ],
+        "fixed_bugs": []
+      }
     }
   ]
 }
