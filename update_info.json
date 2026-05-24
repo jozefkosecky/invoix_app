@@ -725,7 +725,8 @@
         "news": [
           "Faktúry je teraz možné tlačiť aj detailne - s rozpisom podľa jednotlivých výrobkov.",
           "Do nastavení pribudla možnosť zvoliť zdieľaný priečinok pre dáta aplikácie. Ak sa tento priečinok nachádza v sieti, viaceré počítače môžu pracovať s rovnakými dátami.",
-          "Pri úprave objednávok, ku ktorým už bola vystavená faktúra, je teraz možné upozornenie dočasne vypnúť."
+          "Pri úprave objednávok, ku ktorým už bola vystavená faktúra, je teraz možné upozornenie dočasne vypnúť.",
+          "Návrh rozloženia výrobkov na vozíky je teraz presnejší. Program sa viac riadi tým, ako boli výrobky ukladané v minulosti, ignoruje výrobky bez dostatočnej histórie a lepšie predchádza nesprávnemu umiestneniu výrobku na neobvyklú pozíciu."
         ],
         "fixed_bugs": []
       }
