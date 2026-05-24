@@ -718,6 +718,17 @@
         ],
         "fixed_bugs": []
       }
+    },
+        {
+      "version": "1.3.25",
+      "changes": {
+        "news": [
+          "Faktúry je teraz možné tlačiť aj detailne - s rozpisom podľa jednotlivých výrobkov.",
+          "Do nastavení pribudla možnosť zvoliť zdieľaný priečinok pre dáta aplikácie. Ak sa tento priečinok nachádza v sieti, viaceré počítače môžu pracovať s rovnakými dátami.",
+          "Pri úprave objednávok, ku ktorým už bola vystavená faktúra, je teraz možné upozornenie dočasne vypnúť."
+        ],
+        "fixed_bugs": []
+      }
     }
   ]
 }
