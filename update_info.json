@@ -732,6 +732,22 @@
         ],
         "fixed_bugs": []
       }
+    },
+    {
+      "version": "1.3.26",
+      "required": false,
+      "changes": {
+        "warnings": [],
+        "news": [
+          "Túto aktualizáciu odporúčame nainštalovať bezodkladne!",
+          "Pridaná funkcia komplexnej analýzy výroby. Nájdete ju v sekcii Prehľad výroby v hornej lište pod položkou Analýza.",
+          "Pridaná možnosť vytvárať viac skupín rozvozu. Ak napríklad od pondelka do piatka rozvážate v inom poradí ako cez víkend, zákazníkov si môžete rozdeliť do samostatných skupín a uložiť ich správne poradie.",
+          "Upravené vizuálne zobrazenie informácií o aktualizáciách."
+        ],
+        "fixed_bugs": [
+          "Ošetrené chybové stavy, ktoré môžu nastať pri používaní zdieľaného priečinka pre dáta aplikácie."
+        ]
+      }
     }
   ]
 }
