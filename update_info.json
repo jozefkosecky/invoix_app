@@ -748,6 +748,24 @@
           "Ošetrené chybové stavy, ktoré môžu nastať pri používaní zdieľaného priečinka pre dáta aplikácie."
         ]
       }
+    },
+    {
+      "version": "1.3.27",
+      "required": false,
+      "changes": {
+        "warnings": [
+           "Pripravujeme podporu e-faktúr. V tejto verzii preto prebieha pri vytváraní faktúr dodatočná kontrola, kvôli ktorej môže generovanie novej faktúry trvať o niečo dlhšie."
+        ],
+        "news": [
+          "Optimalizovaný filter objednávok. Program teraz rýchlejšie načíta objednávky po aplikovaní filtra."
+        ],
+        "fixed_bugs": [
+          "V jednoduchom prehľade výroby je opäť možné vybrať jeden alebo viac výrobkov a pri tlači získať dokument so zoznamom zákazníkov, ktorí majú vybrané výrobky objednané.",
+          "Program si teraz správne pamätá vybraný filter v analýze výroby aj po odchode z obrazovky.",
+          "Vybraný dátumový rozsah sa teraz používa v rámci celého prehľadu výroby, bez ohľadu na to, či ste v jednoduchom prehľade, prehľade podľa zákazníkov alebo v analýze.",
+          "V zozname objednávok sa už nezobrazujú dni, pre ktoré neexistujú žiadne objednávky na zobrazenie."
+        ]
+      }
     }
   ]
 }
