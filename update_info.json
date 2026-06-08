@@ -754,7 +754,7 @@
       "required": false,
       "changes": {
         "warnings": [
-           "Pripravujeme podporu e-faktúr. V tejto verzii preto prebieha pri vytváraní faktúr dodatočná kontrola, kvôli ktorej môže generovanie novej faktúry trvať o niečo dlhšie."
+           "Pripravujeme podporu e-faktúr. V tejto verzii preto prebieha pri vytváraní faktúr dodatočná kontrola, kvôli ktorej môže generovanie nových faktúr trvať o niečo dlhšie."
         ],
         "news": [
           "Optimalizovaný filter objednávok. Program teraz rýchlejšie načíta objednávky po aplikovaní filtra."
