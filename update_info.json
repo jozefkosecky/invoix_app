@@ -778,6 +778,18 @@
         ],
         "fixed_bugs": []
       }
+    },
+    {
+      "version": "1.3.29",
+      "required": false,
+      "changes": {
+        "warnings": [],
+        "news": [],
+        "fixed_bugs": [
+          "Opravená chyba s označovaním objednávok.",
+          "Doplnený chýbajúci parameter do exportu faktúr pre MRP."
+        ]
+      }
     }
   ]
 }
