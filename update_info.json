@@ -792,6 +792,7 @@
       }
     },
     {
+      "date": "2026-06-30",
       "version": "1.3.30",
       "required": false,
       "changes": {
