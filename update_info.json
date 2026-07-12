@@ -858,6 +858,26 @@
         ],
         "fixed_bugs": []
       }
+    },
+    {
+      "date": "2026-07-12",
+      "version": "1.3.31",
+      "required": false,
+      "changes": {
+        "warnings": [
+          "Podpora e-faktúr je momentálne dostupná v testovacej fáze. Pred odoslaním odporúčame skontrolovať správnosť vygenerovaných údajov."
+        ],
+        "news": [
+          "Prepracované vytváranie a úprava receptov pre jednoduchšiu a prehľadnejšiu prácu. Ďalšie vylepšenia tejto časti pripravujeme.",
+          "Sprístupnené vytváranie e-faktúr vo formáte XML. Ak už používate službu digitálneho poštára, vygenerovaný súbor môžete do tejto služby importovať a následne odoslať.",
+          "Pridaný export faktúr vo formáte ISDOC, ktorý je možné importovať do viacerých účtovných a ERP systémov, napríklad KROS, Money S3, MRP, POHODA, iDoklad alebo SuperFaktúra.",
+          "Export faktúr je teraz dostupný na jednom mieste. Faktúry môžete exportovať vo formátoch ISDOC, MRP, e-faktúra XML, EDI alebo ako štandardný dokument PDF.",
+          "Do nastavení pribudla možnosť vypnúť vytváranie dobropisov.",
+          "Ak po aktualizácii pribudnú do aplikácie nové nastavenia, program ich pri prvom spustení zobrazí na kontrolu a potvrdenie. Tieto nastavenia môžu ovplyvniť doterajšie fungovanie aplikácie.",
+          "Informácia o rozdiele spôsobenom zaokrúhľovaním bola presunutá do informačného textu faktúry, aby ju odberateľ nemohol zameniť so sumou, ktorú má uhradiť."
+        ],
+        "fixed_bugs": []
+      }
     }
   ]
 }
