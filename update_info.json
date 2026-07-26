@@ -878,6 +878,25 @@
         ],
         "fixed_bugs": []
       }
+    },
+    {
+      "date": "2026-07-26",
+      "version": "1.3.32",
+      "required": false,
+      "changes": {
+        "warnings": [],
+        "news": [
+          "Pridaná možnosť týždennej fakturácie. Faktúry je teraz možné vystavovať za jednotlivé sedemdňové obdobia.",
+          "Používateľ si môže prispôsobiť vzhľad dodacích listov a vybrať údaje, ktoré sa na nich majú zobrazovať.",
+          "Pridaná možnosť vytvárať zložené recepty, ktoré vznikajú zmiešaním dvoch existujúcich receptov v zadanom pomere. Takto je možné napríklad vytvoriť cesto na raženku zmiešaním cesta na biele rožky a viaczrnného cesta.",
+          "Do skladu bol pridaný automatický režim FIFO. Pri výdaji program prednostne navrhne suroviny, ktoré boli prijaté na sklad ako prvé. Navrhovaný výdaj je možné v prípade potreby ručne upraviť.",
+          "Optimalizovaný výkon aplikácie. Zrýchlilo sa najmä načítavanie objednávok a faktúr a práca s nimi.",
+          "Upravené správanie vyhľadávacích polí."
+        ],
+        "fixed_bugs": [
+          "Opravené správanie číselných polí. Po zadaní nepovoleného znaku sa už existujúci obsah poľa nevymaže a nepovolený znak sa jednoducho nezadá."
+        ]
+      }
     }
   ]
 }
