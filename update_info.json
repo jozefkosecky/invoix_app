@@ -902,7 +902,7 @@
     {
       "date": "2026-07-27",
       "version": "1.3.33",
-      "required": true,
+      "required": false,
       "changes": {
         "warnings": [],
         "news": [],
