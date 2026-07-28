@@ -910,6 +910,20 @@
           "Opravená chyba s FIFO funkcionalitou."
         ]
       }
+    },
+    {
+      "version": "1.3.34",
+      "required": false,
+      "changes": {
+        "warnings": [],
+        "news": [
+          "Pridaná nová funkcia rozvozných listov. Nájdete ju ako novú položku v hlavnom menu aplikácie.",
+          "Pridaná funkcia kontroly objednávok, ktorú nájdete pod novým tlačidlom v obrazoke so zoznamom objednávok. Pomôže vám identifikovať zabudnuté objednávky, nesprávne zadané výrobky a rozdiely v objednaných množstvách.",
+          "Mierne upravený vzhľad tlačeného cenníka. Po novom môže obsahovať aj telefónne číslo a e-mailovú adresu, ak sú tieto údaje vyplnené v nastaveniach používateľa.",
+          "Rozšírené automatické kontroly skladových údajov, ktoré pomáhajú prípadné chyby odhaliť a odstrániť čo najskôr."
+        ],
+        "fixed_bugs": []
+      }
     }
   ]
 }
