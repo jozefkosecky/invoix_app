@@ -964,6 +964,21 @@
           "Opravená chyba, pri ktorej sa za určitých podmienok mohli do objednávok pridať služby aj napriek tomu, že boli v nastaveniach vypnuté."
         ]
       }
+    },
+    {
+      "date": "2026-08-16",
+      "version": "1.3.38",
+      "required": false,
+      "changes": {
+        "warnings": [],
+        "news": [
+          "Výrazne rozšírené možnosti úpravy vzhľadu dodacích listov. Po novom si môžete prispôsobiť napríklad veľkosť a zvýraznenie textu, podfarbenie jednotlivých častí a ďalšie prvky vzhľadu.",
+          "Prepracovaný spôsob uchovávania údajov na faktúrach a dodacích listoch, aby už vystavené doklady zostali zachované v správnej podobe aj po neskorších zmenách údajov v aplikácii."
+        ],
+        "fixed_bugs": [
+          "Opravených niekoľko menších chýb a nedostatkov."
+        ]
+      }
     }
   ]
 }
