@@ -979,6 +979,29 @@
           "Opravených niekoľko menších chýb a nedostatkov."
         ]
       }
+    },
+    {
+      "date": "2026-08-30",
+      "version": "1.3.39",
+      "required": false,
+      "changes": {
+        "warnings": [],
+        "news": [
+          "Pridaná nová obrazovka pre príjem EDI objednávok. Program sleduje zvolený priečinok s prijatými EDI objednávkami a automaticky zobrazí objednávky pripravené na spracovanie. Novú objednávku tak môžete prijať jedným kliknutím.",
+          "Výrazne rozšírené možnosti importu výrobkov do novej objednávky. Objednávku je možné vytvoriť podľa minulého týždňa, poslednej objednávky bez ohľadu na deň, poslednej objednávky z rovnakého dňa v týždni alebo podľa ľubovoľného vybraného dňa.",
+          "Pri kontrole objednávok je teraz možné nastaviť obdobie, s ktorým sa aktuálne objednávky porovnávajú. Vybrať je možné obdobie 1 až 8 týždňov dozadu, čo pomáha odhaliť nezrovnalosti aj v prípadoch, keď napríklad zákazník v niektorom týždni neobjednával.",
+          "Pridaná možnosť automaticky presunúť spracovaný EDI súbor do priečinka „vybavene_ordisoftom“. Funkciu je možné zapnúť v nastaveniach.",
+          "Pri aktualizácii programu sa záloha automaticky vytvorí do nastaveného priečinka pre zálohy. Ak je priečinok nastavený, program už nevyžaduje manuálne vytvorenie zálohy pred aktualizáciou.",
+          "EDI import a export si teraz pamätajú naposledy použitý priečinok a pri ďalšom použití ho automaticky otvoria.",
+          "Pri zákazníkovi je teraz možné evidovať aj druhé telefónne číslo.",
+          "Na dodacom liste je možné zobrazovať aj EDI číslo objednávky.",
+          "Názvy exportovaných súborov faktúr teraz zohľadňujú obdobie, za ktoré boli faktúry vystavené."
+        ],
+        "fixed_bugs": [
+          "Opravená chyba, pri ktorej nebolo možné novú objednávku zaradiť na ľubovoľnú trasu.",
+          "Opravená chyba pri vymazávaní surovín z receptu, ak sa používateľ nachádzal na inom tabe ako Cesto."
+        ]
+      }
     }
   ]
 }
