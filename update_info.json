@@ -1002,6 +1002,41 @@
           "Opravená chyba pri vymazávaní surovín z receptu, ak sa používateľ nachádzal na inom tabe ako Cesto."
         ]
       }
+    },
+    {
+      "date": "2026-09-13",
+      "version": "1.3.40",
+      "required": false,
+      "changes": {
+        "warnings": [
+          "Obrazovka Historický stav v sekcii Sklad je dočasne skrytá.",
+          "Úpravy starších skladových pohybov sú dočasne zakázané pre všetkých používateľov. Pohyb, na ktorý nadväzuje neskorší výdaj z rovnakej podskladovej karty, nie je možné upraviť. Nastavenie „Obmedziť úpravy starších skladových pohybov“ je preto dočasne skryté."
+        ],
+        "news": [
+          "Skladové pohyby sú po novom plnohodnotné doklady s vlastným číslom (napríklad P 12 alebo V 147), ktoré je možné vytlačiť jednotlivo aj viacero naraz. Doklady obsahujú údaje firmy, položky, ceny, DPH, súčty a miesta na podpis.",
+          "V sekcii Sklad pribudla obrazovka Číselné rady. Pre príjem a výdaj je možné vytvoriť vlastné číselné rady, nastaviť predvolený rad a nepoužívané rady vyradiť.",
+          "Prepracované vytváranie a úprava skladových pohybov. Pri príjme je možné zaevidovať sprievodný doklad od dodávateľa aj s jeho číslom a pri položkách šaržu dodávateľa.",
+          "Skladové doklady si uchovávajú údaje v podobe, v akej boli zaevidované, takže neskoršie zmeny názvov, merných jednotiek alebo údajov firmy a dodávateľa už existujúci doklad neovplyvnia.",
+          "Pri skladových pohyboch sa eviduje, kto doklad vyhotovil, a v histórii zmien aj to, kto ho upravil.",
+          "Zoznam skladových pohybov je možné zobraziť ako tabuľku s voliteľnými stĺpcami, ktorým je možné meniť poradie aj šírku. Filter pohybov je rýchlejší a umožňuje filtrovať aj podľa číselného radu.",
+          "Prepracovaná inventúra. Eviduje dátum začatia, stav ku dňu a dátum skončenia inventúry, hmotne zodpovednú osobu a osoby, ktoré inventúru vykonali.",
+          "Prepracovaný inventúrny súpis obsahuje prebytky, manká, rozdiely v eurách a miesta na podpis. Pribudol aj pracovný súpis na ručné zapisovanie zistených stavov.",
+          "Upraviť alebo odstrániť je možné len poslednú inventúru, po ktorej ešte nenasleduje žiadny skladový pohyb.",
+          "Navážka vytvorená z plánu výroby sa uzamkne až vtedy, keď na ňu nadviaže neskorší výdaj zo skladu. Zamknutú navážku už nie je možné upraviť ani v pláne výroby.",
+          "Pri skladových kartách sa zobrazuje posledná príjmová cena a ročný priemer príjmových cien, vrátane medziročnej zmeny a vývoja priemernej ceny po jednotlivých rokoch.",
+          "Kompaktnejšia hlavička na obrazovke tvorby a úpravy objednávky necháva viac miesta pre výrobky. Poznámka k objednávke sa rozbalí až po kliknutí, pričom vyplnená poznámka zostáva stále viditeľná.",
+          "Import výrobkov do novej objednávky si až do zatvorenia programu pamätá naposledy použitú voľbu aj deň vybraný v kalendári.",
+          "Pred kopírovaním objednávok a vytvorením objednávok z opakovaných objednávok program upozorní na položky, ktoré sa neprenesú, pretože pre zvolený deň nemajú cenu. Upozornenie zobrazí aj použitý cenník a množstvo.",
+          "Prehľadnejšie je aj upozornenie na výrobky odstránené z objednávky z dôvodu chýbajúcej ceny.",
+          "V cenníku odvodenom od všeobecného cenníka sa zobrazuje aj pôvodná cena bez DPH a zmena ceny.",
+          "Do rozvozných listov je možné pridať sumy bez DPH aj s DPH pri zákazníkoch, súčet za jednotlivé trasy a celkový súčet za deň.",
+          "Zálohy dát sa po novom ukladajú do jedného ZIP súboru, ktorý zaberá výrazne menej miesta. Ak sa import dát nepodarí, program zobrazí dôvod."
+        ],
+        "fixed_bugs": [
+          "Opravená chyba, pri ktorej sa v opakovanej objednávke použil cenník platný v deň jej vytvorenia namiesto cenníka platného dnes. Program tak mohol z opakovanej objednávky odstrániť výrobky, ktoré v aktuálnom cenníku sú.",
+          "Opravená chyba, pri ktorej po uložení EDI objednávky otvorenej v editore zostala objednávka v zozname na obrazovke príjmu EDI objednávok až do ďalšieho načítania priečinka."
+        ]
+      }
     }
   ]
 }
