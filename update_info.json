@@ -1049,6 +1049,18 @@
           "Opravená chyba, ktorá súvisela s funkciou rýchleho výberu zákaznikov pre faktúry."
         ]
       }
+    },
+    {
+      "date": "2026-09-21",
+      "version": "1.3.42",
+      "required": false,
+      "changes": {
+        "warnings": [],
+        "news": [
+           "Pri vytváraní faktúr je možné automaticky použiť ako dátum dodania dátum posledného dodacieho listu daného odberateľa. Alternatívne je možné nastaviť jeden spoločný dátum dodania pre všetky faktúry."
+        ],
+        "fixed_bugs": []
+      }
     }
   ]
 }
