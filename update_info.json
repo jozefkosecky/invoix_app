@@ -1061,6 +1061,21 @@
         ],
         "fixed_bugs": []
       }
+    },
+    {
+      "date": "2026-09-28",
+      "version": "1.3.43",
+      "required": false,
+      "changes": {
+        "warnings": [],
+        "news": [
+           
+        ],
+        "fixed_bugs": [
+          "Opravená chyba, pri ktorej po vymazaní zákazníka zostala zachovaná jeho opakovaná objednávka.",
+          "Opravená chyba, ktorá mohla nesprávne blokovať vytvorenie objednávky, ak boli v rovnakom období vystavené faktúry pre iných zákazníkov."
+        ]
+      }
     }
   ]
 }
