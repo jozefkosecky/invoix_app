@@ -1076,6 +1076,20 @@
           "Opravená chyba, ktorá mohla nesprávne blokovať vytvorenie objednávky, ak boli v rovnakom období vystavené faktúry pre iných zákazníkov."
         ]
       }
+    },
+    {
+      "date": "2026-09-29",
+      "version": "1.3.44",
+      "required": false,
+      "changes": {
+        "warnings": [],
+        "news": [
+          "Prepracovaná obrazovka hromadnej fakturácie. Po novom prehľadnejšie zobrazuje, ktorí odberatelia majú v zvolenom období objednávky na vyfakturovanie a ktorí z výberu po zmene obdobia vypadnú.",
+          "Hromadná fakturácia upozorní na nevyfakturované objednávky zo starších ukončených období, aby ste na ne pri fakturácii nezabudli.",
+          "Vyhľadávanie odberateľov na obrazovke hromadnej fakturácie funguje aj bez zadania diakritiky."
+        ],
+        "fixed_bugs": []
+      }
     }
   ]
 }
