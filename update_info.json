@@ -1090,6 +1090,107 @@
         ],
         "fixed_bugs": []
       }
+    },
+    {
+      "date": "2026-10-11",
+      "version": "1.3.45",
+      "required": false,
+      "changes": {
+        "warnings": [
+          "V tejto verzii pribudlo veľa užitočných noviniek, najmä v trasách, cenníkoch, tržbách a prehľade výroby. Odporúčame venovať pár minút prečítaniu zoznamu zmien.",
+          "Vzhľad objednávok Minimalistické karty bol zrušený. Ak ste ho používali, objednávky sa zobrazia ako Detailné karty. Kompaktnejší prehľad ponúka Riadkové zobrazenie."
+        ],
+        "news": [
+          "Trasy majú po novom vlastný názov a skratku. Upravíte ich na obrazovke Zákazníci → Trasy, kde je možné trasy aj pridávať a mazať. Názvy sa zobrazujú na obrazovkách, v tlači aj v exportoch, skratka trasy aj na dodacom liste.",
+          "Poradie trás v zozname objednávok aj pri tlači je možné prepnúť od prvej po poslednú alebo naopak (1 → N / N → 1).",
+          "Na rozvozných listoch je každá objednávka samostatným riadkom so svojou sumou.",
+          "Opakované objednávky majú kompaktnejšie karty, poznámku a vlastné nastavenia vzhľadu. Ich úpravu je možné v nastaveniach úplne vypnúť.",
+          "Na obrazovke Neposúdené EDI sa objednávky zobrazujú po dňoch dodania a všetky pripravené objednávky dňa je možné prijať naraz.",
+          "Pod faktúru je možné vypísať súpis dodacích listov s dátumom, číslom a sumou bez DPH, zvlášť pre hromadné faktúry a pre jedného zákazníka. Hromadná faktúra v podrobnom režime ukazuje aj súčet za každú prevádzku.",
+          "Pri hromadných dobropisoch je možné zadať vlastný text poznámky a položky. Na dobropise sa opäť tlačí dátum dodania a pri položke aj suma, z ktorej sa zľava počítala.",
+          "Súpisky je možné tlačiť po dodacích listoch alebo spočítané za predajňu. Spočítaná súpiska počíta rovnako ako faktúra a uvádza aj fakturovanú sumu s číslom faktúry.",
+          "Prepracované tržby: filter podľa trás a skupín výrobkov, výrobky rozdelené do skupín, DPH s rekapituláciou po sadzbách a zľavy presne podľa faktúr a dobropisov. Tržby je možné exportovať aj do Excelu.",
+          "Prehľad výroby podľa zákazníkov zobrazuje výrobky v riadkoch a zákazníkov v stĺpcoch rozdelených podľa trás, aj so súčtom za viac dní.",
+          "Nová tlač prehľadu výroby podľa výrobkov s náhľadom: výber trás, otočenie papiera, písmo a viac uložených nastavení. Ak sa trasy nezmestia na šírku, tlač sa sama rozdelí na časti.",
+          "V cenníkoch sa ako aktívna zobrazuje verzia platná dnes a cenníky pripravené dopredu sú v novej sekcii Plánované.",
+          "Cenníky sú chránené pred spätnou zmenou: ceny výrobkov, ktoré už použila objednávka, ani ukončený cenník sa nedajú upraviť a program nedovolí zmenu, ktorá by zmenila ceny existujúcich objednávok. Pred zmazaním cenníka sa zobrazí, čo sa zmení.",
+          "Otvorená uložená objednávka si ponechá svoje ceny. Ak sa medzitým zmenil cenník, program na to len upozorní.",
+          "Typ dokladu zákazníka sa po jeho prvej objednávke už nedá zmeniť. Zamknuté polia majú pri názve zámok s vysvetlením.",
+          "Sklad správne pracuje so zmenou DPH: príjem dostane sadzbu platnú k dátumu pohybu a výdaj aj inventúra počítajú DPH podľa sadzby, s ktorou zásoba na sklad vstúpila.",
+          "Pri príjme je možné zadať náklady obstarania (doprava, balné, clo, zľava). Rozpočítajú sa do obstarávacej ceny položiek, nákupná cena zostáva viditeľná.",
+          "Príjem a výdaj ukazujú priebežný súčet bez DPH aj s DPH, množstvo sa zadáva v presnosti suroviny a na výdajke je možné uviesť dodávateľa.",
+          "Výrazne rýchlejšie a plynulejšie zoznamy objednávok, faktúr, opakovaných objednávok a výsledkov vyhľadávania, aj pri veľkom počte záznamov."
+        ],
+        "news_sections": [
+          {
+            "title": "Objednávky a trasy",
+            "items": [
+              "Trasy majú po novom vlastný názov a skratku. Upravíte ich na obrazovke Zákazníci → Trasy, kde je možné trasy aj pridávať a mazať. Názvy sa zobrazujú na obrazovkách, v tlači aj v exportoch, skratka trasy aj na dodacom liste.",
+              "Poradie trás v zozname objednávok aj pri tlači je možné prepnúť od prvej po poslednú alebo naopak (1 → N / N → 1).",
+              "Na rozvozných listoch je každá objednávka samostatným riadkom so svojou sumou.",
+              "Opakované objednávky majú kompaktnejšie karty, poznámku a vlastné nastavenia vzhľadu. Ich úpravu je možné v nastaveniach úplne vypnúť.",
+              "Na obrazovke Neposúdené EDI sa objednávky zobrazujú po dňoch dodania a všetky pripravené objednávky dňa je možné prijať naraz."
+            ]
+          },
+          {
+            "title": "Faktúry, dobropisy, súpisky",
+            "items": [
+              "Pod faktúru je možné vypísať súpis dodacích listov s dátumom, číslom a sumou bez DPH, zvlášť pre hromadné faktúry a pre jedného zákazníka. Hromadná faktúra v podrobnom režime ukazuje aj súčet za každú prevádzku.",
+              "Pri hromadných dobropisoch je možné zadať vlastný text poznámky a položky. Na dobropise sa opäť tlačí dátum dodania a pri položke aj suma, z ktorej sa zľava počítala.",
+              "Súpisky je možné tlačiť po dodacích listoch alebo spočítané za predajňu. Spočítaná súpiska počíta rovnako ako faktúra a uvádza aj fakturovanú sumu s číslom faktúry."
+            ]
+          },
+          {
+            "title": "Tržby",
+            "items": [
+              "Prepracované tržby: filter podľa trás a skupín výrobkov, výrobky rozdelené do skupín, DPH s rekapituláciou po sadzbách a zľavy presne podľa faktúr a dobropisov. Tržby je možné exportovať aj do Excelu."
+            ]
+          },
+          {
+            "title": "Prehľad výroby",
+            "items": [
+              "Prehľad výroby podľa zákazníkov zobrazuje výrobky v riadkoch a zákazníkov v stĺpcoch rozdelených podľa trás, aj so súčtom za viac dní.",
+              "Nová tlač prehľadu výroby podľa výrobkov s náhľadom: výber trás, otočenie papiera, písmo a viac uložených nastavení. Ak sa trasy nezmestia na šírku, tlač sa sama rozdelí na časti."
+            ]
+          },
+          {
+            "title": "Cenníky",
+            "items": [
+              "V cenníkoch sa ako aktívna zobrazuje verzia platná dnes a cenníky pripravené dopredu sú v novej sekcii Plánované.",
+              "Cenníky sú chránené pred spätnou zmenou: ceny výrobkov, ktoré už použila objednávka, ani ukončený cenník sa nedajú upraviť a program nedovolí zmenu, ktorá by zmenila ceny existujúcich objednávok. Pred zmazaním cenníka sa zobrazí, čo sa zmení.",
+              "Otvorená uložená objednávka si ponechá svoje ceny. Ak sa medzitým zmenil cenník, program na to len upozorní."
+            ]
+          },
+          {
+            "title": "Zákazníci",
+            "items": [
+              "Typ dokladu zákazníka sa po jeho prvej objednávke už nedá zmeniť. Zamknuté polia majú pri názve zámok s vysvetlením."
+            ]
+          },
+          {
+            "title": "Sklad",
+            "items": [
+              "Sklad správne pracuje so zmenou DPH: príjem dostane sadzbu platnú k dátumu pohybu a výdaj aj inventúra počítajú DPH podľa sadzby, s ktorou zásoba na sklad vstúpila.",
+              "Pri príjme je možné zadať náklady obstarania (doprava, balné, clo, zľava). Rozpočítajú sa do obstarávacej ceny položiek, nákupná cena zostáva viditeľná.",
+              "Príjem a výdaj ukazujú priebežný súčet bez DPH aj s DPH, množstvo sa zadáva v presnosti suroviny a na výdajke je možné uviesť dodávateľa."
+            ]
+          },
+          {
+            "title": "Rýchlosť",
+            "items": [
+              "Výrazne rýchlejšie a plynulejšie zoznamy objednávok, faktúr, opakovaných objednávok a výsledkov vyhľadávania, aj pri veľkom počte záznamov."
+            ]
+          }
+        ],
+        "fixed_bugs": [
+          "Objednávka na trase, ktorú už nemá žiadny zákazník, sa opäť zobrazuje v zozname objednávok, prehľade výroby, pláne výroby aj pri tlači dodacích listov.",
+          "Opravená chyba, pri ktorej sa v zozname zoradenom podľa trasy mohli niektoré objednávky nezobraziť a presun objednávky na trase neskončil presne na zvolenom mieste.",
+          "Opravené zaseknutie aplikácie pri filtri trás v opakovaných objednávkach.",
+          "Opravená občasná chyba náhľadu tlače (rozvozné listy, vzhľad dodacieho listu).",
+          "Opravené zaseknutie pri zakladaní zákazníka, výrobku, služby alebo skladovej karty, ak sa uloženie nepodarilo.",
+          "Opravené jednodňové medzery v platnosti cenníkov po presune zákazníka do nového cenníka."
+        ]
+      }
     }
   ]
 }
