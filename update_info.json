@@ -1171,6 +1171,95 @@
         ],
         "fixed_bugs": []
       }
+    },
+    {
+      "date": "2026-10-26",
+      "version": "1.3.46",
+      "required": false,
+      "changes": {
+        "warnings": [
+          "Navážka sa po novom volá Spotreba. Rad dokladov VN Navážka sa premenoval na VS Spotreba, číslovanie pokračuje a staršie doklady ostávajú s označením VN. Spotreba je v Pohyboch na sklade dostupná vždy, nastavenie na jej povolenie bolo odstránené."
+        ],
+        "news": [
+          "K objednávke s vytlačeným dodacím listom je možné zapísať korekciu (dodalo sa viac alebo menej) a reklamáciu (kusy, za ktoré odberateľ neplatí). Objednané množstvo ostáva, zmena sa zobrazí v stĺpcoch Korekcia, Reklamácia a Spolu.",
+          "Dodacie listy, faktúry, súpisky, EDI doklady aj tržby počítajú s množstvom Spolu. Dodací list a súpiska pri zmene ukážu aj objednané množstvo a zmenu, čo je možné vypnúť v ich nastaveniach.",
+          "V prehľade výroby, rozvozných listoch a spotrebe je možné prepnúť množstvo medzi Objednané a Objednané ± korekcia (predvolené). Čísla s korekciou sú zvýraznené, reklamácia sa tu nepočíta.",
+          "Nový dialóg kopírovania objednávok ukáže, kam sa kopíruje, koľko objednávok tam už je a ktorí odberatelia tam objednávku už majú. Týmto odberateľom je možné objednávky nekopírovať. Čo sa neskopíruje, dialóg ukáže aj s dôvodom. Rovnako funguje aj pridanie opakovaných objednávok.",
+          "V ponuke Ďalšie akcie pribudlo Odstrániť výrobky z objednávok. Vybrané výrobky sa odstránia zo všetkých označených objednávok dňa naraz a program pred tým ukáže, čo sa zmení.",
+          "Pri objednávke sa zobrazuje aj čas jej vytvorenia.",
+          "Zákazníka, ktorý už neodoberá, je možné deaktivovať pravým kliknutím na zákazníka. Nebude sa ponúkať v nových objednávkach, kopírovanie ho preskočí a vypadne z trasy. Znova ho aktivujete v Zákazníci → Neaktívni.",
+          "Pri vytváraní zákazníka program upozorní, ak podobný zákazník už existuje, napríklad s rovnakým IČO, DIČ alebo EAN miesta dodania, aj medzi neaktívnymi.",
+          "Zákazníkovi alebo spoločnosti je možné nastaviť Fakturovať: Nie, napríklad pre vlastnú predajňu. Dodacie listy sa vystavujú ako doteraz, faktúry nie a v tržbách sa jeho dodávky rátajú ako vyfakturované.",
+          "Dobropisy môžu mať vlastný číselný rad, oddelený od faktúr. Program sa to opýta pri prvom dobropise v roku. Kým v roku nie je žiadny dobropis, zmeniť to je možné v Nastaveniach faktúr na karte Číslovanie.",
+          "Pri vystavení faktúr a dobropisov je možné zvoliť, či číslo dokladu začína rokom obdobia alebo rokom vystavenia. Pri prvom doklade roka je možné zvoliť aj počet číslic za rokom (3 až 6).",
+          "Súpis dodacích listov na hromadnej faktúre je rozdelený po predajniach. Spočítaná súpiska uvádza sumu za každý dodací list a rozpis DPH podľa sadzieb.",
+          "Tlač prehľadu výroby podľa zákazníkov sa otvorí s náhľadom, ako tlač podľa výrobkov. Papier na výšku alebo na šírku sa zvolí a už sa neotáča sám podľa počtu zákazníkov. Vybrať je možné trasy, písmo a farby, nastavenia sa ukladajú a zákazníkov je možné vytlačiť v stĺpcoch alebo v riadkoch.",
+          "V spotrebe je možné zapísať vyrobené množstvo výrobkov dňa a suroviny sa vydajú podľa receptov z vyrobeného množstva. Prehľad výroby podľa výrobkov ukáže vyrobené množstvo, ak sa líši od objednaného.",
+          "Výdaj a vytlačená výdajka ukazujú šaržu dodávateľa, z ktorej sa surovina vydala. Partner na výdajke sa po novom označuje ako Odberateľ.",
+          "V tržbách sa pri skupinách výrobkov zobrazuje aj hmotnosť v kg, na obrazovke, v tlači aj v Exceli.",
+          "Každý druh exportu (PDF, ISDOC, e-faktúry, MRP, EDI, Excel, záloha a ďalšie) si pamätá naposledy použitý priečinok."
+        ],
+        "news_sections": [
+          {
+            "title": "Korekcie a reklamácie",
+            "items": [
+              "K objednávke s vytlačeným dodacím listom je možné zapísať korekciu (dodalo sa viac alebo menej) a reklamáciu (kusy, za ktoré odberateľ neplatí). Objednané množstvo ostáva, zmena sa zobrazí v stĺpcoch Korekcia, Reklamácia a Spolu.",
+              "Dodacie listy, faktúry, súpisky, EDI doklady aj tržby počítajú s množstvom Spolu. Dodací list a súpiska pri zmene ukážu aj objednané množstvo a zmenu, čo je možné vypnúť v ich nastaveniach.",
+              "V prehľade výroby, rozvozných listoch a spotrebe je možné prepnúť množstvo medzi Objednané a Objednané ± korekcia (predvolené). Čísla s korekciou sú zvýraznené, reklamácia sa tu nepočíta."
+            ]
+          },
+          {
+            "title": "Objednávky",
+            "items": [
+              "Nový dialóg kopírovania objednávok ukáže, kam sa kopíruje, koľko objednávok tam už je a ktorí odberatelia tam objednávku už majú. Týmto odberateľom je možné objednávky nekopírovať. Čo sa neskopíruje, dialóg ukáže aj s dôvodom. Rovnako funguje aj pridanie opakovaných objednávok.",
+              "V ponuke Ďalšie akcie pribudlo Odstrániť výrobky z objednávok. Vybrané výrobky sa odstránia zo všetkých označených objednávok dňa naraz a program pred tým ukáže, čo sa zmení.",
+              "Pri objednávke sa zobrazuje aj čas jej vytvorenia."
+            ]
+          },
+          {
+            "title": "Zákazníci",
+            "items": [
+              "Zákazníka, ktorý už neodoberá, je možné deaktivovať pravým kliknutím na zákazníka. Nebude sa ponúkať v nových objednávkach, kopírovanie ho preskočí a vypadne z trasy. Znova ho aktivujete v Zákazníci → Neaktívni.",
+              "Pri vytváraní zákazníka program upozorní, ak podobný zákazník už existuje, napríklad s rovnakým IČO, DIČ alebo EAN miesta dodania, aj medzi neaktívnymi.",
+              "Zákazníkovi alebo spoločnosti je možné nastaviť Fakturovať: Nie, napríklad pre vlastnú predajňu. Dodacie listy sa vystavujú ako doteraz, faktúry nie a v tržbách sa jeho dodávky rátajú ako vyfakturované."
+            ]
+          },
+          {
+            "title": "Faktúry, dobropisy, súpisky",
+            "items": [
+              "Dobropisy môžu mať vlastný číselný rad, oddelený od faktúr. Program sa to opýta pri prvom dobropise v roku. Kým v roku nie je žiadny dobropis, zmeniť to je možné v Nastaveniach faktúr na karte Číslovanie.",
+              "Pri vystavení faktúr a dobropisov je možné zvoliť, či číslo dokladu začína rokom obdobia alebo rokom vystavenia. Pri prvom doklade roka je možné zvoliť aj počet číslic za rokom (3 až 6).",
+              "Súpis dodacích listov na hromadnej faktúre je rozdelený po predajniach. Spočítaná súpiska uvádza sumu za každý dodací list a rozpis DPH podľa sadzieb."
+            ]
+          },
+          {
+            "title": "Prehľad výroby",
+            "items": [
+              "Tlač prehľadu výroby podľa zákazníkov sa otvorí s náhľadom, ako tlač podľa výrobkov. Papier na výšku alebo na šírku sa zvolí a už sa neotáča sám podľa počtu zákazníkov. Vybrať je možné trasy, písmo a farby, nastavenia sa ukladajú a zákazníkov je možné vytlačiť v stĺpcoch alebo v riadkoch."
+            ]
+          },
+          {
+            "title": "Sklad",
+            "items": [
+              "V spotrebe je možné zapísať vyrobené množstvo výrobkov dňa a suroviny sa vydajú podľa receptov z vyrobeného množstva. Prehľad výroby podľa výrobkov ukáže vyrobené množstvo, ak sa líši od objednaného.",
+              "Výdaj a vytlačená výdajka ukazujú šaržu dodávateľa, z ktorej sa surovina vydala. Partner na výdajke sa po novom označuje ako Odberateľ."
+            ]
+          },
+          {
+            "title": "Tržby a exporty",
+            "items": [
+              "V tržbách sa pri skupinách výrobkov zobrazuje aj hmotnosť v kg, na obrazovke, v tlači aj v Exceli.",
+              "Každý druh exportu (PDF, ISDOC, e-faktúry, MRP, EDI, Excel, záloha a ďalšie) si pamätá naposledy použitý priečinok."
+            ]
+          }
+        ],
+        "fixed_bugs": [
+          "Opravené odporúčané číslo faktúry a dobropisu do minulého roka, ktoré mohlo vyjsť nesprávne. Po zmene obdobia sa číslo prepočíta a po poslednom čísle roka (napríklad 20269999) číslovanie pokračuje ďalšou číslicou.",
+          "Opravená chyba, pri ktorej spotreba vynechala surovinu, ktorá nebola na sklade. Program teraz pred uložením ukáže všetky suroviny, ktorých nie je na sklade dosť.",
+          "Opravená chyba, pri ktorej sa v prehľade výroby tlačili aj výrobky, ktoré už neboli označené.",
+          "Opravená chyba, pri ktorej okno na uloženie exportu niekedy neotvorilo nastavený priečinok."
+        ]
+      }
     }
   ]
 }
