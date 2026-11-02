@@ -1260,6 +1260,44 @@
           "Opravená chyba, pri ktorej okno na uloženie exportu niekedy neotvorilo nastavený priečinok."
         ]
       }
+    },
+    {
+      "date": "2026-11-02",
+      "version": "1.3.47",
+      "required": false,
+      "changes": {
+        "warnings": [
+          "Pri ukladaní zákazníka a spoločnosti sa po novom kontroluje IČO, DIČ, IČ DPH a PSČ. Ak je v niektorom poli 0 alebo chybná hodnota, uloženie sa zastaví a pri poli sa zobrazí dôvod. Ak zákazník daný údaj nemá, pole nechajte prázdne. V Hromadnej úprave to platí pre zmenené riadky."
+        ],
+        "news": [
+          "V cenníku je možné opraviť chybnú cenu alebo DPH výrobku, ktorý je už na objednávkach. Zapnete to v Nastaveniach výrobkov položkou Povoliť opravu cien a DPH použitých výrobkov v cenníku. Potom v Upraviť cenník kliknete na Odomknúť ceny a DPH.",
+          "Oprava prepíše cenu a DPH na dodacích listoch bez faktúry, aj v zľavových cenníkoch. Dodacie listy vo faktúrach ostanú bez zmeny, rovnako ako ich faktúra. Pred uložením sa ukáže, koľko dodacích listov sa zmení a koľko nie. Vytlačený dodací list má o oprave záznam v Histórii zmien.",
+          "IČ DPH spoločnosti už nie je povinné, neplatca DPH ho nechá prázdne.",
+          "Text zápisu v registri na faktúrach a dobropisoch spoločností je upravený podľa typu subjektu, napríklad Spoločnosť s ručením obmedzeným zapísaná v Obchodnom registri Mestského súdu Košice. Zmení sa aj pri opätovnej tlači starších dokladov. Ako bude vyzerať, vidíte v Nastaveniach na karte Uživateľ pod poľom Registračné číslo. Pri živnostníkovi ostáva bez zmeny."
+        ],
+        "news_sections": [
+          {
+            "title": "Cenníky",
+            "items": [
+              "V cenníku je možné opraviť chybnú cenu alebo DPH výrobku, ktorý je už na objednávkach. Zapnete to v Nastaveniach výrobkov položkou Povoliť opravu cien a DPH použitých výrobkov v cenníku. Potom v Upraviť cenník kliknete na Odomknúť ceny a DPH.",
+              "Oprava prepíše cenu a DPH na dodacích listoch bez faktúry, aj v zľavových cenníkoch. Dodacie listy vo faktúrach ostanú bez zmeny, rovnako ako ich faktúra. Pred uložením sa ukáže, koľko dodacích listov sa zmení a koľko nie. Vytlačený dodací list má o oprave záznam v Histórii zmien."
+            ]
+          },
+          {
+            "title": "Zákazníci",
+            "items": [
+              "IČ DPH spoločnosti už nie je povinné, neplatca DPH ho nechá prázdne."
+            ]
+          },
+          {
+            "title": "Faktúry a dobropisy",
+            "items": [
+              "Text zápisu v registri na faktúrach a dobropisoch spoločností je upravený podľa typu subjektu. Ako bude vyzerať, vidíte v Nastaveniach na karte Uživateľ pod poľom Registračné číslo. Pri živnostníkovi ostáva bez zmeny."
+            ]
+          }
+        ],
+        "fixed_bugs": []
+      }
     }
   ]
 }
