@@ -1298,6 +1298,96 @@
         ],
         "fixed_bugs": []
       }
+    },
+    {
+      "date": "2026-11-17",
+      "version": "1.3.48",
+      "required": false,
+      "changes": {
+        "warnings": [
+          "Aktualizáciu urobte, až keď budete mať čas, nie tesne pred vystavovaním faktúr. Po aktualizácii treba skontrolovať údaje vašej firmy, odberateľov a výrobkov. Kým nie sú v poriadku, faktúry sa nedajú vytvoriť.",
+          "Táto verzia prináša veľké zmeny pri faktúrach a e-faktúrach. Pozorne si, prosím, prečítajte všetky upozornenia a novinky aj texty v oknách, ktoré program po aktualizácii ukáže.",
+          "Po spustení program skontroluje údaje vašej firmy a odberateľov s faktúrou v registroch (Register právnických osôb a finančná správa), aby e-faktúry fungovali bez problémov. Rozdiely ukáže v oknách, skontrolujte ich a potvrďte tlačidlom Prijať zmeny. Kým nie sú overení dodávateľ a všetci odberatelia, faktúry ani dobropisy sa nedajú vytvoriť. Kontrolu je možné znova spustiť tlačidlom Skontrolovať údaje v registri v hornej lište.",
+          "Merná jednotka výrobku je povinná. Pri aktualizácii sa jednotky zjednotili, napríklad Ks na ks, a jednotka, ktorá nie je v zozname, sa vymazala. Kým výrobky nemajú mernú jednotku, faktúry sa nedajú vytvoriť. Program ukáže, ktorým výrobkom ju treba doplniť na karte výrobku.",
+          "Odosielanie e-faktúr priamo z programu cez poštára je platená služba. Ak ju chcete používať, ozvite sa nám, pomôžeme s registráciou a odosielanie vám zapneme."
+        ],
+        "news": [
+          "Od 1. 1. 2027 posielajú platitelia DPH faktúry firmám ako e-faktúry cez poštára. Program ich vie poslať priamo cez poštára Verteco. Pekáreň sa zaregistruje v Nastaveniach na karte e-Faktúra v štyroch krokoch: Údaje pekárne, Registrácia u poštára, Výber poštára na portáli Finančnej správy a Zapnutie odosielania.",
+          "Na obrazovke Faktúry má každá faktúra stav e-faktúry, napríklad Neodoslaná, Zabudnutá, Čaká na doručenie, Doručené, Nedoručiteľné alebo Chyba. Kliknutím na stav sa otvorí okno Stav e-faktúry s vysvetlením a ďalším krokom.",
+          "Označené faktúry sa odošlú ikonou Odoslať e-faktúry poštárovi. Pred odoslaním program každú e-faktúru skontroluje a ukáže, čo treba opraviť. Faktúra pre odberateľa mimo siete Peppol odíde, odberateľovi ju treba poslať aj inak, napríklad e-mailom.",
+          "E-faktúra je vystavená v deň, keď ju odovzdáte poštárovi. Keď ju odošlete v iný deň, dátum vystavenia sa pri odoslaní zmení na ten deň a splatnosť sa posunie.",
+          "Stav doručenia a hlásenia finančnej správe program zistí sám pri spustení, 2 minúty po odoslaní a pri zatváraní, inak tlačidlom Zistiť stav e-faktúr u poštára. S odosielaním program pri spustení a zatváraní pripomenie aj neodoslané e-faktúry.",
+          "Faktúru doručenú odberateľovi mimo siete Peppol je možné zapísať v ponuke Ďalšie akcie položkou Doručené inak.",
+          "Faktúru, ktorú program poslal poštárovi, nie je možné zmazať ani meniť jej objednávky, opravuje sa dobropisom.",
+          "Od 1. 1. 2027 môže súhrnná faktúra zahŕňať najviac jeden kalendárny mesiac. Keď obdobie prechádza cez prelom mesiaca, program vystavenie nedovolí a ponúkne časti obdobia po mesiacoch.",
+          "Export E-faktúry XML ukáže, ktoré doklady vynechal a prečo. Kontrola zastaví doklad platiteľa DPH so sadzbou 0 % a povie, pri ktorej položke.",
+          "Obrazovka Faktúry je nová. Vľavo je zoznam roka po mesiacoch s prepínačom Po dňoch a Po obdobiach, nad ním Všetky obdobia a Treba doriešiť s počtom dokladov, ktoré treba vyriešiť. Zoznam je možné schovať tlačidlom Schovať zoznam, medzi obdobiami sa potom prechádza šípkami nad tabuľkou.",
+          "Nad tabuľkou faktúr sú filtre Všetky, Neodoslané, Treba doriešiť, Čaká na doručenie, Doručené a Nie sú e-faktúry s počtami a v tabuľke je stĺpec Stav e-faktúry.",
+          "Sumár a Vymazať sú v ponuke Ďalšie akcie. Okno vymazania ukáže počet a druh dokladov a vymazanie treba potvrdiť zaškrtnutím Rozumiem.",
+          "Ikona Nové faktúry vždy otvorí obrazovku Vytvorenie faktúr, ktorá má nový vzhľad. Odberateľov treba vybrať, vystavenie bez výberu odberateľov už nie je.",
+          "Nový doklad vyplní medzeru v číslovaní, napríklad po zmazanej faktúre. Obrazovka to ukáže vopred a prepínačom Vyplniť medzeru je možné to vypnúť.",
+          "Pri prvom doklade roka program pred vytvorením faktúr a dobropisov ukáže okno Skontrolujte číslovanie s rokom v čísle, počtom číslic a prvým číslom.",
+          "Dátum dodania je možné pri vytváraní faktúr zadať ručne v rámci obdobia, predvyplnený je posledný deň obdobia.",
+          "Z objednávky odberateľa, ktorý na daný deň nemá faktúru, už faktúra nevznikne, ani pri kopírovaní a prijatí EDI. Faktúry sa vystavujú na obrazovke Vytvorenie faktúr.",
+          "Na karte zákazníka a spoločnosti je IČO na prvom mieste s tlačidlom Načítať z registra. Po zadaní 8 číslic program doplní názov, fakturačnú adresu, DIČ a IČ DPH z registra a polia zamkne. Rovnako funguje IČO v Nastaveniach na karte Uživateľ.",
+          "IČO je povinné pri firme, ktorej sa vystavuje faktúra. V Hromadnej úprave sú údaje overenej firmy z registra zamknuté.",
+          "V Nastaveniach na karte Uživateľ pribudlo pole Obchodný názov. Na faktúre, predfaktúre a dobropise sa tlačí pod obchodným menom.",
+          "Zahraniční odberatelia sa v registri nekontrolujú.",
+          "Merná jednotka výrobku sa vyberá zo zoznamu na karte výrobku aj v Hromadnej úprave, nový výrobok má predvolene ks.",
+          "Množstvo na objednávke je možné zadať najviac na 3 desatinné miesta, aj pri korekcii a reklamácii."
+        ],
+        "news_sections": [
+          {
+            "title": "E-faktúry",
+            "items": [
+              "Od 1. 1. 2027 posielajú platitelia DPH faktúry firmám ako e-faktúry cez poštára. Program ich vie poslať priamo cez poštára Verteco. Pekáreň sa zaregistruje v Nastaveniach na karte e-Faktúra v štyroch krokoch: Údaje pekárne, Registrácia u poštára, Výber poštára na portáli Finančnej správy a Zapnutie odosielania.",
+              "Na obrazovke Faktúry má každá faktúra stav e-faktúry, napríklad Neodoslaná, Zabudnutá, Čaká na doručenie, Doručené, Nedoručiteľné alebo Chyba. Kliknutím na stav sa otvorí okno Stav e-faktúry s vysvetlením a ďalším krokom.",
+              "Označené faktúry sa odošlú ikonou Odoslať e-faktúry poštárovi. Pred odoslaním program každú e-faktúru skontroluje a ukáže, čo treba opraviť. Faktúra pre odberateľa mimo siete Peppol odíde, odberateľovi ju treba poslať aj inak, napríklad e-mailom.",
+              "E-faktúra je vystavená v deň, keď ju odovzdáte poštárovi. Keď ju odošlete v iný deň, dátum vystavenia sa pri odoslaní zmení na ten deň a splatnosť sa posunie.",
+              "Stav doručenia a hlásenia finančnej správe program zistí sám pri spustení, 2 minúty po odoslaní a pri zatváraní, inak tlačidlom Zistiť stav e-faktúr u poštára. S odosielaním program pri spustení a zatváraní pripomenie aj neodoslané e-faktúry.",
+              "Faktúru doručenú odberateľovi mimo siete Peppol je možné zapísať v ponuke Ďalšie akcie položkou Doručené inak.",
+              "Faktúru, ktorú program poslal poštárovi, nie je možné zmazať ani meniť jej objednávky, opravuje sa dobropisom.",
+              "Od 1. 1. 2027 môže súhrnná faktúra zahŕňať najviac jeden kalendárny mesiac. Keď obdobie prechádza cez prelom mesiaca, program vystavenie nedovolí a ponúkne časti obdobia po mesiacoch.",
+              "Export E-faktúry XML ukáže, ktoré doklady vynechal a prečo. Kontrola zastaví doklad platiteľa DPH so sadzbou 0 % a povie, pri ktorej položke."
+            ]
+          },
+          {
+            "title": "Faktúry",
+            "items": [
+              "Obrazovka Faktúry je nová. Vľavo je zoznam roka po mesiacoch s prepínačom Po dňoch a Po obdobiach, nad ním Všetky obdobia a Treba doriešiť s počtom dokladov, ktoré treba vyriešiť. Zoznam je možné schovať tlačidlom Schovať zoznam, medzi obdobiami sa potom prechádza šípkami nad tabuľkou.",
+              "Nad tabuľkou faktúr sú filtre Všetky, Neodoslané, Treba doriešiť, Čaká na doručenie, Doručené a Nie sú e-faktúry s počtami a v tabuľke je stĺpec Stav e-faktúry.",
+              "Sumár a Vymazať sú v ponuke Ďalšie akcie. Okno vymazania ukáže počet a druh dokladov a vymazanie treba potvrdiť zaškrtnutím Rozumiem."
+            ]
+          },
+          {
+            "title": "Vytvorenie faktúr a dobropisov",
+            "items": [
+              "Ikona Nové faktúry vždy otvorí obrazovku Vytvorenie faktúr, ktorá má nový vzhľad. Odberateľov treba vybrať, vystavenie bez výberu odberateľov už nie je.",
+              "Nový doklad vyplní medzeru v číslovaní, napríklad po zmazanej faktúre. Obrazovka to ukáže vopred a prepínačom Vyplniť medzeru je možné to vypnúť.",
+              "Pri prvom doklade roka program pred vytvorením faktúr a dobropisov ukáže okno Skontrolujte číslovanie s rokom v čísle, počtom číslic a prvým číslom.",
+              "Dátum dodania je možné pri vytváraní faktúr zadať ručne v rámci obdobia, predvyplnený je posledný deň obdobia.",
+              "Z objednávky odberateľa, ktorý na daný deň nemá faktúru, už faktúra nevznikne, ani pri kopírovaní a prijatí EDI. Faktúry sa vystavujú na obrazovke Vytvorenie faktúr."
+            ]
+          },
+          {
+            "title": "Zákazníci a údaje z registra",
+            "items": [
+              "Na karte zákazníka a spoločnosti je IČO na prvom mieste s tlačidlom Načítať z registra. Po zadaní 8 číslic program doplní názov, fakturačnú adresu, DIČ a IČ DPH z registra a polia zamkne. Rovnako funguje IČO v Nastaveniach na karte Uživateľ.",
+              "IČO je povinné pri firme, ktorej sa vystavuje faktúra. V Hromadnej úprave sú údaje overenej firmy z registra zamknuté.",
+              "V Nastaveniach na karte Uživateľ pribudlo pole Obchodný názov. Na faktúre, predfaktúre a dobropise sa tlačí pod obchodným menom.",
+              "Zahraniční odberatelia sa v registri nekontrolujú."
+            ]
+          },
+          {
+            "title": "Výrobky a objednávky",
+            "items": [
+              "Merná jednotka výrobku sa vyberá zo zoznamu na karte výrobku aj v Hromadnej úprave, nový výrobok má predvolene ks.",
+              "Množstvo na objednávke je možné zadať najviac na 3 desatinné miesta, aj pri korekcii a reklamácii."
+            ]
+          }
+        ],
+        "fixed_bugs": []
+      }
     }
   ]
 }
