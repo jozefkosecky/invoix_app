@@ -1388,6 +1388,105 @@
         ],
         "fixed_bugs": []
       }
+    },
+    {
+    "date": "2026-11-24",
+    "version": "1.3.49",
+    "required": false,
+    "changes": {
+        "warnings": [],
+        "news": [
+            "Karta zákazníka a karta spoločnosti majú nový vzhľad. Údaje sú rozdelené do panelov, napríklad Fakturácia, Rozvoz a dodacie listy, EDI a e-faktúra a Doplnkové nastavenia. Tlačidlo Uložiť je hore v karte.",
+            "Pri zákazníkovi sa vyberá Typ zákazníka: Firma alebo Súkromná osoba. Nový zákazník sa otvorí ako Firma. Zákazník, ktorý patrí pod spoločnosť, nemôže byť súkromná osoba.",
+            "Keď je zaškrtnuté Dodacia adresa je rovnaká ako fakturačná, dodacia adresa sa nezobrazuje a mení sa spolu s fakturačnou.",
+            "Keď sa zákazník alebo spoločnosť nedá uložiť, okno vymenuje všetky údaje, ktoré treba opraviť.",
+            "Obrazovky Zákazníci a Spoločnosti majú hlavičku s hľadaním a tlačidlami ako obrazovka Faktúry.",
+            "V Nastaveniach na karte Aplikácia v časti Faktúry a doklady pribudlo nastavenie Splatnosť faktúry od dátumu dodania. Je predvolene vypnuté a kým ho nezapnete, splatnosť sa počíta od dátumu vystavenia ako doteraz. Po aktualizácii ho program ukáže v okne Skontrolujte nové nastavenia.",
+            "Po zapnutí sa pri zákazníkovi a spoločnosti vyberá Splatnosť od: Vystavenia alebo Dodania. Zákazník pod spoločnosťou ju preberá zo spoločnosti. Nový zákazník a nová spoločnosť dostanú hodnotu z nastavenia Predvolené pre nového zákazníka a spoločnosť.",
+            "Pri voľbe Dodania sa splatnosť faktúry a predfaktúry počíta od dátumu dodania. Nastavenie Splatnosť najmenej (dní od dátumu vystavenia) stráži, aby splatnosť nevyšla pred vystavením. Príklad pri 3 dňoch: splatnosť 6 dní, posledné dodanie 20. 11., vystavenie 28. 11. Od dodania by vyšlo 26. 11., preto sa použije 1. 12.",
+            "V Hromadnej úprave zákazníkov je pri zapnutom nastavení nový stĺpec Splatnosť od. Je predvolene skrytý, zobraziť sa dá v okne Stĺpce hromadnej úpravy zákazníkov.",
+            "V zozname faktúr je nový stĺpec Dát. dodania pred stĺpcom Splatnosť.",
+            "Keď sa e-faktúre pri odoslaní zmení dátum vystavenia, splatnosť sa prepočíta. Pri splatnosti od dodania podľa nového pravidla, inak sa posunie o rovnaký počet dní ako doteraz.",
+            "Na karte zákazníka a spoločnosti je v Doplnkových nastaveniach voľba Tlačiť faktúry, predvolene zapnutá. Keď ju vypnete, pri tlači na obrazovke Faktúry sa doklady tohto odberateľa preskočia, aj keď sú označené, a program to oznámi oranžovým upozornením s menami. Export do PDF, XML a odoslanie e-faktúry sa nemenia.",
+            "Voľba Tlačiť faktúry je aj v Hromadnej úprave zákazníkov ako stĺpec, predvolene skrytý.",
+            "Dátum vystavenia faktúr je možné zvoliť aj spätne, aj u platiteľa DPH. E-faktúra dostane pri odoslaní poštárovi dátum odoslania. Dobropisy sa u platiteľa DPH vystavujú ako doteraz, najskôr s dnešným dátumom.",
+            "V Nastaveniach faktúr je nová karta Vzhľad faktúr s tlačidlom Otvoriť vzhľad faktúr. Režim tlače a Súpis dodacích listov sa po novom nastavujú v tomto okne, karta ukazuje ich uložené hodnoty.",
+            "Okno Vzhľad faktúr ukáže všetky druhy dokladov, ktoré vzniknú pri hromadnom vystavení, napríklad súhrnné faktúry spoločností, faktúry prevádzok a faktúry zákazníkov, s počtom odberateľov a so vzorovým dokladom v náhľade. Na záložke Kto ho dostane sú odberatelia, ktorí daný doklad dostanú.",
+            "Na záložke Vzhľad sú nastavenia zoradené ako na papieri: Veľkosť písma, Režim tlače a Súpis dodacích listov. Keď prejdete myšou nad nastavením, náhľad orámuje časť dokladu, ktorú mení. Zmeny sa uložia tlačidlom Uložiť.",
+            "Tlačidlo Ako to funguje vysvetlí, kto dostane akú faktúru, odkiaľ sa berú údaje a čo sa stane pri vystavení.",
+            "Pri zákazníkovi s vyplneným Názvom prevádzky je na faktúre a dobropise nad výrobkami samostatný riadok Vystavené pre s názvom prevádzky a adresou dodania. Bez Názvu prevádzky sa ukáže len adresa dodania, ak je iná ako fakturačná. Rovnako sa vytlačia aj staršie doklady.",
+            "Surovina Voda do receptov je po novom v každej inštalácii, aj v novej. Volá sa Voda - systémová, aby sa dala odlíšiť od vlastnej skladovej karty s vodou. Na etikete výrobku sa ďalej tlačí Voda.",
+            "Nastavenia sa nedajú zavrieť ani prepnúť na inú kartu, kým je niektoré pole nevyplnené alebo chybné. Okno Nastavenia nie sú vyplnené správne ukáže, čo treba opraviť. Platí to aj pre údaje vašej firmy na karte Uživateľ."
+        ],
+        "news_sections": [
+            {
+                "title": "Zákazníci a spoločnosti",
+                "items": [
+                    "Karta zákazníka a karta spoločnosti majú nový vzhľad. Údaje sú rozdelené do panelov, napríklad Fakturácia, Rozvoz a dodacie listy, EDI a e-faktúra a Doplnkové nastavenia. Tlačidlo Uložiť je hore v karte.",
+                    "Pri zákazníkovi sa vyberá Typ zákazníka: Firma alebo Súkromná osoba. Nový zákazník sa otvorí ako Firma. Zákazník, ktorý patrí pod spoločnosť, nemôže byť súkromná osoba.",
+                    "Keď je zaškrtnuté Dodacia adresa je rovnaká ako fakturačná, dodacia adresa sa nezobrazuje a mení sa spolu s fakturačnou.",
+                    "Keď sa zákazník alebo spoločnosť nedá uložiť, okno vymenuje všetky údaje, ktoré treba opraviť.",
+                    "Obrazovky Zákazníci a Spoločnosti majú hlavičku s hľadaním a tlačidlami ako obrazovka Faktúry."
+                ]
+            },
+            {
+                "title": "Splatnosť od dátumu dodania",
+                "items": [
+                    "V Nastaveniach na karte Aplikácia v časti Faktúry a doklady pribudlo nastavenie Splatnosť faktúry od dátumu dodania. Je predvolene vypnuté a kým ho nezapnete, splatnosť sa počíta od dátumu vystavenia ako doteraz. Po aktualizácii ho program ukáže v okne Skontrolujte nové nastavenia.",
+                    "Po zapnutí sa pri zákazníkovi a spoločnosti vyberá Splatnosť od: Vystavenia alebo Dodania. Zákazník pod spoločnosťou ju preberá zo spoločnosti. Nový zákazník a nová spoločnosť dostanú hodnotu z nastavenia Predvolené pre nového zákazníka a spoločnosť.",
+                    "Pri voľbe Dodania sa splatnosť faktúry a predfaktúry počíta od dátumu dodania. Nastavenie Splatnosť najmenej (dní od dátumu vystavenia) stráži, aby splatnosť nevyšla pred vystavením. Príklad pri 3 dňoch: splatnosť 6 dní, posledné dodanie 20. 11., vystavenie 28. 11. Od dodania by vyšlo 26. 11., preto sa použije 1. 12.",
+                    "V Hromadnej úprave zákazníkov je pri zapnutom nastavení nový stĺpec Splatnosť od. Je predvolene skrytý, zobraziť sa dá v okne Stĺpce hromadnej úpravy zákazníkov.",
+                    "V zozname faktúr je nový stĺpec Dát. dodania pred stĺpcom Splatnosť.",
+                    "Keď sa e-faktúre pri odoslaní zmení dátum vystavenia, splatnosť sa prepočíta. Pri splatnosti od dodania podľa nového pravidla, inak sa posunie o rovnaký počet dní ako doteraz."
+                ]
+            },
+            {
+                "title": "Tlač faktúr",
+                "items": [
+                    "Na karte zákazníka a spoločnosti je v Doplnkových nastaveniach voľba Tlačiť faktúry, predvolene zapnutá. Keď ju vypnete, pri tlači na obrazovke Faktúry sa doklady tohto odberateľa preskočia, aj keď sú označené, a program to oznámi oranžovým upozornením s menami. Export do PDF, XML a odoslanie e-faktúry sa nemenia.",
+                    "Voľba Tlačiť faktúry je aj v Hromadnej úprave zákazníkov ako stĺpec, predvolene skrytý."
+                ]
+            },
+            {
+                "title": "Vytvorenie faktúr",
+                "items": [
+                    "Dátum vystavenia faktúr je možné zvoliť aj spätne, aj u platiteľa DPH. E-faktúra dostane pri odoslaní poštárovi dátum odoslania. Dobropisy sa u platiteľa DPH vystavujú ako doteraz, najskôr s dnešným dátumom."
+                ]
+            },
+            {
+                "title": "Vzhľad faktúr",
+                "items": [
+                    "V Nastaveniach faktúr je nová karta Vzhľad faktúr s tlačidlom Otvoriť vzhľad faktúr. Režim tlače a Súpis dodacích listov sa po novom nastavujú v tomto okne, karta ukazuje ich uložené hodnoty.",
+                    "Okno Vzhľad faktúr ukáže všetky druhy dokladov, ktoré vzniknú pri hromadnom vystavení, napríklad súhrnné faktúry spoločností, faktúry prevádzok a faktúry zákazníkov, s počtom odberateľov a so vzorovým dokladom v náhľade. Na záložke Kto ho dostane sú odberatelia, ktorí daný doklad dostanú.",
+                    "Na záložke Vzhľad sú nastavenia zoradené ako na papieri: Veľkosť písma, Režim tlače a Súpis dodacích listov. Keď prejdete myšou nad nastavením, náhľad orámuje časť dokladu, ktorú mení. Zmeny sa uložia tlačidlom Uložiť.",
+                    "Tlačidlo Ako to funguje vysvetlí, kto dostane akú faktúru, odkiaľ sa berú údaje a čo sa stane pri vystavení."
+                ]
+            },
+            {
+                "title": "Faktúry a dobropisy",
+                "items": [
+                    "Pri zákazníkovi s vyplneným Názvom prevádzky je na faktúre a dobropise nad výrobkami samostatný riadok Vystavené pre s názvom prevádzky a adresou dodania. Bez Názvu prevádzky sa ukáže len adresa dodania, ak je iná ako fakturačná. Rovnako sa vytlačia aj staršie doklady."
+                ]
+            },
+            {
+                "title": "Sklad",
+                "items": [
+                    "Surovina Voda do receptov je po novom v každej inštalácii, aj v novej. Volá sa Voda - systémová, aby sa dala odlíšiť od vlastnej skladovej karty s vodou. Na etikete výrobku sa ďalej tlačí Voda."
+                ]
+            },
+            {
+                "title": "Nastavenia",
+                "items": [
+                    "Nastavenia sa nedajú zavrieť ani prepnúť na inú kartu, kým je niektoré pole nevyplnené alebo chybné. Okno Nastavenia nie sú vyplnené správne ukáže, čo treba opraviť. Platí to aj pre údaje vašej firmy na karte Uživateľ."
+                ]
+            }
+        ],
+        "fixed_bugs": [
+            "Opravená chyba, pri ktorej sa údaje vašej firmy na karte Uživateľ pri odchode z Nastavení uložili aj s chybou, napríklad nesprávny IBAN, DIČ, PSČ alebo SWIFT.",
+            "Opravená chyba, pri ktorej sa pri zmene pečiatky a podpisu na karte Uživateľ uložili aj chybné údaje vašej firmy. Teraz program najprv ukáže, čo treba opraviť, a pečiatka sa neuloží.",
+            "Opravená chyba, pri ktorej sa prázdne pole Počet čísel za desatinnou čiarkou v rámci ceny výrobku uložilo ako 0. Teraz ho treba vyplniť."
+        ]
+      }
     }
   ]
 }
